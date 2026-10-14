@@ -1,7 +1,7 @@
 # Zadanie 001 — pakiet do oceny właściciela
 
 - Status: `creative_ready` — gotowe koncepcje, teksty i instrukcje produkcji; nie oznacza gotowych plików zdjęć/wideo ani zgody na emisję.
-- Wersja: 1.2, 2026-10-14 (szkice 3F i potwierdzenia właściciela — [ad-proposal-3f.md](ad-proposal-3f.md)). Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
+- Wersja: 1.3, 2026-10-14 — szkice v1 odrzucone przez właściciela; aktualne kierunki: [ad-proposal-3f-v2.md](ad-proposal-3f-v2.md). Zakres: Facebook, warianty Śląsk i Kraków (miasto). Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
 - Zadanie: [001](../../tasks/001-lozka-rehabilitacyjne-start.md); kontrakt: [campaign-package-contract](../../tools/campaign-package-contract.md).
 - Decyzja właściciela: OCZEKUJE. Publikacja: NIEZATWIERDZONA. Budżet: NIEZATWIERDZONY. Harmonogram: nie utworzono.
 
@@ -40,4 +40,4 @@ Brak realnych plików w assets/products/. Całość to pakiet przedprodukcyjny z
 
 ## Nawigacja
 
-[propozycja reklamy 3F + szkice](ad-proposal-3f.md) · [facts](facts.md) · [asset-manifest](asset-manifest.md) · [creative-concepts](creative-concepts.md) · [shorts](shorts.md) · [images](images.md) · [copy](copy.md) · [paid-ads](paid-ads.md) · [review](review.md) · [results](results.md) · [rejestr UTM](utm-register.csv)
+[kierunki wizualne 3F v2](ad-proposal-3f-v2.md) · [szkice v1 — odrzucone](ad-proposal-3f.md) · [facts](facts.md) · [asset-manifest](asset-manifest.md) · [creative-concepts](creative-concepts.md) · [shorts](shorts.md) · [images](images.md) · [copy](copy.md) · [paid-ads](paid-ads.md) · [review](review.md) · [results](results.md) · [rejestr UTM](utm-register.csv)

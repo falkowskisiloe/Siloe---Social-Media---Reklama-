@@ -1,5 +1,7 @@
 # Propozycja reklamy 3F — Śląsk, kontakt telefoniczny
 
+> **ODRZUCONE przez właściciela 2026-10-14.** Trzy szkice z `sketches/` i rekomendacja kierunku „Proces” nie są zaakceptowanym kierunkiem. Aktualne opracowanie: [ad-proposal-3f-v2.md](ad-proposal-3f-v2.md). Przegląd materiałów (sekcja 1) pozostaje ważny jako ustalenia.
+
 - Data: 2026-10-14. Status: `creative_ready` — szkice do oceny, nie materiał do publikacji.
 - Priorytet: wynajem elektrycznego łóżka 3F w województwie śląskim, jeden cel: kwalifikowany telefon.
 - Cena: „Wynajem 150 zł / miesiąc” — tylko 3F. CTA: „Zadzwoń: 14 694 10 00”.

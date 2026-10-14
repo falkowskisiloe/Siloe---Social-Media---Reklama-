@@ -21,9 +21,11 @@ S1/S2 przeczytano lokalnie, S3/S4 otwarto narzędziem web 2026-10-14. Web podał
 | F08 | TWIST: lewy lub prawy kierunek wybierany na stałe | S1, S4 sekcja kierunku obrotu | Potwierdzić wariant wynajmowanego egzemplarza |
 
 | F09 | 3F: „Wynajem 150 zł / miesiąc” | S5 | Tylko 3F; nie przypisywać TWIST; bez kaucji i innych opłat, dopóki nie potwierdzone |
-| F10 | Obszar kampanii: województwo śląskie | S5 | Bez Małopolski i Opolskiego; miasta i koszt dojazdu nadal niepotwierdzone |
+| F10 | Obszar kampanii: województwo śląskie (uzupełnione o Kraków — F13) | S5 | Bez reszty Małopolski i bez Opolskiego; miasta i koszt dojazdu nadal niepotwierdzone |
 | F11 | Zakres usługi 3F: materac piankowy w zestawie bez dodatkowej opłaty, dobór modelu po rozmowie, dostawa, wniesienie, montaż, instruktaż, serwis i pomoc; możliwość zakupu innych artykułów do opieki domowej | S6 | Zakres, nie cennik: cena transportu NIEPOTWIERDZONA — nie sugerować, że dostawa, wniesienie lub montaż są bezpłatne; bez terminu i „24 h” |
 | F12 | Myśl przewodnia: „Wynajem łóżka i pomoc w przygotowaniu miejsca do opieki — wszystko w jednym miejscu” | S6 | Hasło komunikacyjne, nie twierdzenie o wyniku |
+
+| F13 | Zakres kreacji: Facebook; dwa osobne warianty regionalne — województwo śląskie oraz Kraków (miasto) | S5 | Kraków nie oznacza Małopolski; jeden region na grafice, bez listy miast; bez obietnicy dostępności, terminu i bezpłatnej dostawy |
 
 - S5: bezpośrednie potwierdzenie właściciela, 2026-10-14 (telefon kampanii, obszar, cena 3F, brak potwierdzenia ceny transportu).
 - S6: ogłoszenie OLX przekazane przez właściciela 2026-10-14 (treść streszczona w zleceniu; samego ogłoszenia nie otwierano).

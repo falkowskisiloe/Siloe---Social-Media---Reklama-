@@ -1,6 +1,6 @@
 # Karta przeglądu i decyzji właściciela
 
-- Zadanie 001, wersja 1.2, 2026-10-14.
+- Zadanie 001, wersja 1.3, 2026-10-14.
 - Status pakietu: `creative_ready` (treści i plan produkcji gotowe do oceny).
 - Status plików finalnych: BRAK, oczekują na prawdziwe referencje i zgody.
 - Autor przeglądu redakcyjnego: Codex. Właściciel/reviewer zgodności: do wskazania.
@@ -32,7 +32,7 @@
 | --- | --- | --- | --- |
 | B01 | Okres najmu i pełne warunki ceny 3F i TWIST, kaucja, podatki/opłaty, zakres dostawy | Właściciel | CZĘŚCIOWO: 3F 150 zł / miesiąc potwierdzone 2026-10-14 (bezpośrednie potwierdzenie właściciela). OTWARTE: kaucja, opłaty, cena transportu, cały TWIST |
 | B02 | Bieżąca dostępność i wariant każdego egzemplarza; dla TWIST — czy flota wynajmu ma oba kierunki obrotu (teksty „kierunek dobieramy do pokoju” zakładają wybór) | Właściciel | OTWARTE; bez „od ręki”; przy jednym kierunku przepisać haki twist-H3 |
-| B03 | Miasta/powiaty, koszt i ograniczenia dostawy, termin realizacji osobno dla modeli | Właściciel | CZĘŚCIOWO: obszar kampanii = woj. śląskie (2026-10-14, bezpośrednie potwierdzenie właściciela). OTWARTE: koszt transportu, ograniczenia dojazdu, termin |
+| B03 | Miasta/powiaty, koszt i ograniczenia dostawy, termin realizacji osobno dla modeli | Właściciel | CZĘŚCIOWO: obszary kampanii = woj. śląskie oraz osobno Kraków (miasto) (2026-10-14, bezpośrednie potwierdzenie właściciela). OTWARTE: koszt transportu, ograniczenia dojazdu, termin |
 | B04 | TWIST: wersja bazowa/fotel, rzeczywisty kierunek i instrukcja konkretnego egzemplarza; poprawa tytułu/URL strony docelowej z „pionizacją” albo osobna strona wynajmu | Właściciel + operator | OTWARTE; nie reklamujemy pionizacji; blokuje ruch płatny i podglądy linków TWIST |
 | B05 | Prawdziwe zdjęcia 3F i TWIST, pełny film TWIST z przygotowaniem i powrotem | Właściciel / produkcja | BRAK; blokuje finalne wizualizacje |
 | B06 | Prawa do zdjęć, wideo, głosu, muzyki, logo i wizerunku; dopuszczenie edycji AI | Właściciel | BRAK; blokuje użycie materiałów |
@@ -82,3 +82,12 @@ Zakres: kompletność względem Zadania 001 i kontraktu, zgodność z config/off
 - Higgsfield: połączenie sprawdzone; prompty P1–P3 zapisane; generacja nieuruchomiona, kredyty nienaruszone.
 - TWIST: brak pełnego nagrania; materiał niewystarczający; bez animacji mechaniki.
 - Pozostałe blokady bez zmian, jako otwarte.
+
+## Nowe kierunki wizualne 3F — 2026-10-14, wersja 1.3
+
+- Szkice v1 i rekomendacja „Proces” zostały **odrzucone przez właściciela** ([sketches/ODRZUCONE.md](sketches/ODRZUCONE.md)).
+- Zakres: Facebook; osobne warianty Śląsk i Kraków (facts F13). Telefon 14 694 10 00, 3F 150 zł / miesiąc.
+- Trzy nowe podglądy kompozycji 4:5 i rekomendacja kierunku 2 („Wynajmij łóżko rehabilitacyjne”): [ad-proposal-3f-v2.md](ad-proposal-3f-v2.md), [sketches-v2/](sketches-v2/). Produkt to nienaruszone piksele zdjęcia `02` z Drive. Otoczenie to makieta składu, nie fotografia.
+- Folder `C:\ai dysk\Social Media - Siloe\zdjęcia` jest niedostępny z tego środowiska, a na Drive nie znaleziono jego odpowiednika. Zdjęcie `02` nie jest potwierdzone jako plik z tego folderu.
+- Higgsfield: generacja nieuruchomiona. Sieć blokuje upload referencji i pobieranie wyników. Koszt podglądu: 2 kredyty (`marketing_studio_image`, 4:5); propozycja: 3 podglądy = 6 kredytów po odblokowaniu hostów.
+- Akceptacja kierunku wizualnego jest osobną decyzją od zgody na emisję i budżet. Pozostałe blokady bez zmian.
