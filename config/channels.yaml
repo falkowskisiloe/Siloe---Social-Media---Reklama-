@@ -1,0 +1,21 @@
+channels:
+  facebook:
+    organic_formats: ["reel", "post", "carousel"]
+    paid_formats: ["reel", "feed", "story"]
+    primary_goal: "lead_or_message"
+  instagram:
+    organic_formats: ["reel", "carousel", "story"]
+    paid_formats: ["reel", "feed", "story"]
+    primary_goal: "lead_or_message"
+  tiktok:
+    organic_formats: ["vertical_video"]
+    paid_formats: ["in_feed", "spark_ad"]
+    primary_goal: "qualified_visit_or_lead"
+
+creative_defaults:
+  aspect_ratio: "9:16"
+  captions: true
+  safe_area: true
+  first_hook_seconds: 2
+  variants_per_hypothesis: 3
+  human_approval_required: true
