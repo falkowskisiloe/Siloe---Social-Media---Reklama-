@@ -67,3 +67,9 @@ Tekst składany poza generatorem, osobno dla każdego regionu:
 3. „Zadzwoń: 14 694 10 00”.
 
 Bez obietnic dotyczących klikalności, wyników, dostępności, terminu i bezpłatnej dostawy. Bez publikacji i budżetu.
+
+## 7. Pula kredytów i ponowny test — 2026-10-14
+
+- Zgoda właściciela: maksymalnie **50 kredytów** Higgsfield łącznie na bieżącą rundę produkcji 3F (zdjęcia, warianty, poprawki, projekt reklamy). To limit, nie cel. Nie obejmuje budżetu reklamowego. Nie potwierdza praw do zdjęcia ANTAR (B15 nadal otwarte).
+- Licznik: **0 / 50** wydanych kredytów.
+- Ponowny test transferu: `upload.higgsfield.ai:443` i `d2ol7oe51mr4n9.cloudfront.net:443` — `connect_rejected` (proxy wyjściowe sesji odmawia CONNECT, `CONNECT tunnel failed, response 403`). Generacja nieuruchomiona.
