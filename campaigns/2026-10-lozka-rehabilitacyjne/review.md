@@ -1,6 +1,6 @@
 # Karta przeglądu i decyzji właściciela
 
-- Zadanie 001, wersja 1.3, 2026-10-14.
+- Zadanie 001, wersja 1.4, 2026-10-14.
 - Status pakietu: `creative_ready` (treści i plan produkcji gotowe do oceny).
 - Status plików finalnych: BRAK, oczekują na prawdziwe referencje i zgody.
 - Autor przeglądu redakcyjnego: Codex. Właściciel/reviewer zgodności: do wskazania.
@@ -45,6 +45,7 @@
 | B14 | Który model jest wynajmowany jako „3F” w Śląskiem (ANTAR PSL013 ze zdjęć czy inny, np. Stiegelmeyer z floty); rozbieżności PSL013: 4 silniki/Trendelenburg, 175 kg vs 200 kg, wysięgnik | Właściciel | OTWARTE; blokuje użycie packshotów ANTAR w reklamie |
 | B15 | Prawa do packshotów ANTAR i TWIST z Drive (zgoda importera/producenta na reklamę płatną) | Właściciel | OTWARTE; samo udostępnienie folderu nie jest licencją |
 | B16 | Uzgodnienie strony 3F z kampanią: indeks wyszukiwarki pokazuje „dostawa i montaż wliczone w cenę” i 150 zł jako cenę zakupu; strona niedostępna z tej sesji | Właściciel | OTWARTE |
+| B17 | Repozytorium jest **publiczne**: katalogi `sketches/` i `sketches-v2/` zawierają piksele packshotu ANTAR o niepotwierdzonych prawach (B15). Decyzja: zostawić, usunąć z gałęzi (historia git nadal je zawiera) albo zmienić widoczność repozytorium | Właściciel | OTWARTE |
 | B13 | TWIST: zadanie przewiduje ujęcie „miejsce na stopy i transfer”; pakiet go nie pokazuje. Decyzja: pominąć albo nagrać asystowany transfer z osobą (zgoda, instrukcja, bez sugestii samodzielnego wstawania) | Właściciel + operator | OTWARTE; domyślnie pominięte |
 
 ## Formularz decyzji — pozostawiony pusty
@@ -91,3 +92,10 @@ Zakres: kompletność względem Zadania 001 i kontraktu, zgodność z config/off
 - Folder `C:\ai dysk\Social Media - Siloe\zdjęcia` jest niedostępny z tego środowiska, a na Drive nie znaleziono jego odpowiednika. Zdjęcie `02` nie jest potwierdzone jako plik z tego folderu.
 - Higgsfield: generacja nieuruchomiona. Sieć blokuje upload referencji i pobieranie wyników. Koszt podglądu: 2 kredyty (`marketing_studio_image`, 4:5); propozycja: 3 podglądy = 6 kredytów po odblokowaniu hostów.
 - Akceptacja kierunku wizualnego jest osobną decyzją od zgody na emisję i budżet. Pozostałe blokady bez zmian.
+
+## Warsztat i zlecenie fotografii — 2026-10-14, wersja 1.4
+
+- Wszystkie dotychczasowe projekty (v1 i v2) zostały odrzucone przez właściciela; makiety są wstrzymane.
+- Dodano umiejętności `ad-creative` 2.11.0 i `image` 2.0.2 z coreyhaines31/marketingskills (MIT, commit `c7d7dfb`). Źródło, zakres kopii i pierwszeństwo zasad Siloe: `.agents/skills/vendor/marketingskills/SOURCE.md`.
+- Higgsfield: model `nano_banana_pro`, 4:5, 4K, 4 kredyty za podgląd. **Zablokowane** na etapie wysłania referencji (`upload.higgsfield.ai`: `CONNECT tunnel failed, response 403`) i odbioru wyniku (`d2ol7oe51mr4n9.cloudfront.net`: to samo). Szczegóły i gotowy prompt: [higgsfield-run-001.md](higgsfield-run-001.md). Nie wydano kredytów.
+- Nowa blokada B17: publiczne repozytorium a zdjęcia o niepotwierdzonych prawach.

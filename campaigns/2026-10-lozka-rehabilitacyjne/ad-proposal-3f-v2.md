@@ -1,5 +1,7 @@
 # Kreacja 3F na Facebooka — nowe kierunki wizualne (v2)
 
+> **ODRZUCONE przez właściciela 2026-10-14**, łącznie ze wszystkimi wcześniejszymi projektami. Makiety z katalogowym łóżkiem na gradiencie lub we wnętrzu rysowanym z figur są wstrzymane. Aktualnie: [higgsfield-run-001.md](higgsfield-run-001.md).
+
 - Data: 2026-10-14. Status: `creative_ready`. Podglądy kompozycji do oceny, nie materiał do emisji.
 - Zakres: Facebook, 3F, cel — telefony o wynajem. Warianty regionalne: **Śląsk** i **Kraków**, każdy osobno. Kraków oznacza wyłącznie miasto, nie Małopolskę.
 - Stałe: telefon kampanii „Zadzwoń: 14 694 10 00”, cena 3F „150 zł / miesiąc” (nie dotyczy TWIST). Bez bezpłatnej dostawy, terminu 24 h i deklaracji dostępności.
