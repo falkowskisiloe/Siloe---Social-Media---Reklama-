@@ -1,7 +1,7 @@
 # Zadanie 001 — pakiet do oceny właściciela
 
 - Status: `creative_ready` — gotowe koncepcje, teksty i instrukcje produkcji; nie oznacza gotowych plików zdjęć/wideo ani zgody na emisję.
-- Wersja: 1.1, 2026-10-14 (niezależny przegląd — zmiany w review.md). Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
+- Wersja: 1.2, 2026-10-14 (szkice 3F i potwierdzenia właściciela — [ad-proposal-3f.md](ad-proposal-3f.md)). Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
 - Zadanie: [001](../../tasks/001-lozka-rehabilitacyjne-start.md); kontrakt: [campaign-package-contract](../../tools/campaign-package-contract.md).
 - Decyzja właściciela: OCZEKUJE. Publikacja: NIEZATWIERDZONA. Budżet: NIEZATWIERDZONY. Harmonogram: nie utworzono.
 
@@ -14,7 +14,7 @@
 | Sytuacja | Organizacja codziennej opieki w domu | Dobór łóżka z obrotem leża do siedzenia bokiem |
 | Główna myśl | Trzy regulacje i pomoc w uruchomieniu sprzętu | Rzeczywisty obrót do fotela i dobór strony do pokoju |
 | Dowód | Prawdziwe ujęcia regulacji oraz montażu/instruktażu | Prawdziwy ciągły ruch konkretnego egzemplarza |
-| Główny CTA | Zadzwoń: 792 020 020 | Zadzwoń: 792 020 020 |
+| Główny CTA | Zadzwoń: 14 694 10 00 | Zadzwoń: 14 694 10 00 |
 
 Statusy w config/offers.yaml bez zmian: 3F `ready_after_price_period_confirmation`, TWIST `blocked_until_variant_and_price_confirmation`.
 
@@ -22,7 +22,9 @@ Jeden wspólny mierzalny cel biznesowy: kwalifikowane kontakty telefoniczne o wy
 
 Odbiorca podstawowy: dorośli organizujący opiekę domową, bliscy i opiekunowie rodzinni. Osobny język B2B dla placówek i profesjonalnych opiekunów w copy.md; nie mieszać go w pierwszym teście rodzinnym.
 
-Obszar: Polska jako rynek i język; faktyczne miasta/powiaty dostawy obu modeli NIEPOTWIERDZONE. Nie uruchamiać targetowania ogólnopolskiego ani nie przyjmować historycznej listy miast jako potwierdzenia. Właściciel podaje obszar dla każdego modelu, koszty i ograniczenia dojazdu; dopiero wtedy powstają osobne wersje regionalne. Gotowy szablon lokalizacji: „Wynajem łóżka [MODEL] — [POTWIERDZONY OBSZAR]”; żadnego placeholdera nie eksportować do emisji.
+Aktualizacja 2026-10-14 (bezpośrednie potwierdzenie właściciela): priorytet to wynajem 3F, obszar kampanii — **województwo śląskie**, telefon kampanii 14 694 10 00, cena 3F „Wynajem 150 zł / miesiąc” (nie dotyczy TWIST). Cena transportu niepotwierdzona. Miasta i koszt dojazdu w Śląskiem nadal otwarte.
+
+Obszar (stan wcześniejszy): Polska jako rynek i język; faktyczne miasta/powiaty dostawy obu modeli NIEPOTWIERDZONE. Nie uruchamiać targetowania ogólnopolskiego ani nie przyjmować historycznej listy miast jako potwierdzenia. Właściciel podaje obszar dla każdego modelu, koszty i ograniczenia dojazdu; dopiero wtedy powstają osobne wersje regionalne. Gotowy szablon lokalizacji: „Wynajem łóżka [MODEL] — [POTWIERDZONY OBSZAR]”; żadnego placeholdera nie eksportować do emisji.
 
 ## Rekomendowany kierunek do zatwierdzenia
 
@@ -38,4 +40,4 @@ Brak realnych plików w assets/products/. Całość to pakiet przedprodukcyjny z
 
 ## Nawigacja
 
-[facts](facts.md) · [asset-manifest](asset-manifest.md) · [creative-concepts](creative-concepts.md) · [shorts](shorts.md) · [images](images.md) · [copy](copy.md) · [paid-ads](paid-ads.md) · [review](review.md) · [results](results.md) · [rejestr UTM](utm-register.csv)
+[propozycja reklamy 3F + szkice](ad-proposal-3f.md) · [facts](facts.md) · [asset-manifest](asset-manifest.md) · [creative-concepts](creative-concepts.md) · [shorts](shorts.md) · [images](images.md) · [copy](copy.md) · [paid-ads](paid-ads.md) · [review](review.md) · [results](results.md) · [rejestr UTM](utm-register.csv)

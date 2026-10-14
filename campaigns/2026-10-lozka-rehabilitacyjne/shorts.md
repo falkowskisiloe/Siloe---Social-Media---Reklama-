@@ -1,6 +1,6 @@
 # Shorty — storyboardy i instrukcje produkcji
 
-Status wszystkich ujęć: DO NAGRANIA. Brak podglądów finalnych. Eksporty planowane: H1 v1 główny, v2/v3 krótsze alternatywy. Napisy/lektor poniżej to teksty, nie gotowe audio; czas sprawdzić po nagraniu. Każdy film kończy się jednym CTA: „Zadzwoń: 792 020 020”.
+Status wszystkich ujęć: DO NAGRANIA. Brak podglądów finalnych. Eksporty planowane: H1 v1 główny, v2/v3 krótsze alternatywy. Napisy/lektor poniżej to teksty, nie gotowe audio; czas sprawdzić po nagraniu. Każdy film kończy się jednym CTA: „Zadzwoń: 14 694 10 00”.
 
 ## 3F — główny FB Reel 24 s, 9:16, 1080 × 1920
 
@@ -11,14 +11,14 @@ Status wszystkich ujęć: DO NAGRANIA. Brak podglądów finalnych. Eksporty plan
 | 6–10 | Osobne ujęcie regulacji sekcji nóg | Sekcja nóg | sekcję nóg |
 | 10–14 | Całe łóżko z boku, rzeczywista zmiana wysokości | Wysokość łóżka | i wysokość całego łóżka. |
 | 14–20 | Realny montaż, potem pracownik objaśnia pilot; materac w kadrze | Materac • montaż • instruktaż | Siloe zapewnia materac, montaż i instruktaż. Warunki dostawy ustalisz w rozmowie. |
-| 20–24 | Nieruchomy pełny produkt i dodana plansza CTA | Zadzwoń: 792 020 020 | Zadzwoń do Siloe i zapytaj o wynajem. |
+| 20–24 | Nieruchomy pełny produkt i dodana plansza CTA | Zadzwoń: 14 694 10 00 | Zadzwoń do Siloe i zapytaj o wynajem. |
 
 Ruchy nie muszą mieścić całego zakresu mechanizmu w 4 s: pokazać rzeczywisty fragment regulacji bez przyspieszania sugerującego inną prędkość. Nie przełączać funkcji za pomocą AI. Dowód pełnych regulacji zachować w surowym materiale.
 
 ### Dwa krótsze warianty H1
 
-- v2, 15 s: 0–2 pilot i „Co reguluje pilot łóżka 3F?”; 2–5 oparcie; 5–8 nogi; 8–11 wysokość; 11–15 CTA. Lektor: „Co reguluje pilot łóżka 3F? Oparcie, nogi i wysokość. Zadzwoń do Siloe: 792 020 020”. Napisy: hak → Oparcie → Nogi → Wysokość → CTA.
-- v3, 18 s: 0–2 pełne łóżko „Oparcie, nogi, wysokość”; 2–6 oparcie; 6–10 nogi; 10–14 wysokość; 14–18 CTA. Lektor: „Oparcie, nogi i wysokość — zobacz regulacje łóżka 3F. Zapytaj Siloe o dostępność i warunki wynajmu. Zadzwoń: 792 020 020”. Napisy odpowiadają nazwom funkcji.
+- v2, 15 s: 0–2 pilot i „Co reguluje pilot łóżka 3F?”; 2–5 oparcie; 5–8 nogi; 8–11 wysokość; 11–15 CTA. Lektor: „Co reguluje pilot łóżka 3F? Oparcie, nogi i wysokość. Zadzwoń do Siloe: 14 694 10 00”. Napisy: hak → Oparcie → Nogi → Wysokość → CTA.
+- v3, 18 s: 0–2 pełne łóżko „Oparcie, nogi, wysokość”; 2–6 oparcie; 6–10 nogi; 10–14 wysokość; 14–18 CTA. Lektor: „Oparcie, nogi i wysokość — zobacz regulacje łóżka 3F. Zapytaj Siloe o dostępność i warunki wynajmu. Zadzwoń: 14 694 10 00”. Napisy odpowiadają nazwom funkcji.
 
 ## TWIST — główny FB Reel 25 s, 9:16
 
@@ -30,7 +30,7 @@ Plan warunkowy: 25 s tylko jeśli pełna demonstracja w rzeczywistym tempie mie�
 | 2–6 | Początek ciągłego szerokiego nagrania: operator sprawdza przestrzeń, hamulce, przygotowanie wg instrukcji | Przygotowanie zgodnie z instrukcją | Najpierw przygotowanie zgodne z instrukcją. |
 | 6–18 | Kontynuacja tego samego ujęcia: przygotowane oparcie i nogi, opuszczone właściwe barierki, pełny obrót do fotela | Obrót leża o 90° | Leże obraca się o dziewięćdziesiąt stopni do pozycji fotela. |
 | 18–21 | Nieruchomy fotel, wolna przestrzeń od właściwej strony, bez wstawania | Kierunek dobieramy do pokoju | Kierunek dobiera się do pokoju. |
-| 21–25 | Ten sam produkt i plansza | Zadzwoń: 792 020 020 | Zadzwoń do Siloe i potwierdź wariant wynajmu. |
+| 21–25 | Ten sam produkt i plansza | Zadzwoń: 14 694 10 00 | Zadzwoń do Siloe i potwierdź wariant wynajmu. |
 
 Od 2 do 18 s nie wolno ukryć cięciem przygotowania ani fragmentu obrotu. Znaczniki czasu są założeniem montażowym do dopasowania po pomiarze surowego filmu, nie specyfikacją prędkości urządzenia. Jeśli potrzebne jest więcej czasu, wyciąć część wstępu/komentarza, zachowując CTA i pełną sekwencję. Jeśli nadal przekracza 25 s: główny short pozostaje zablokowany do uzgodnienia długości, nie przyspieszać, nie generować ani nie pomijać ruchu. Osobne pełne nagranie dowodowe obejmuje również powrót i ponowne podniesienie barierek.
 
@@ -39,7 +39,7 @@ Pokaz najlepiej wykonać na pustym łóżku przez przeszkolonego operatora. Jeż
 ### Dwa krótsze warianty H1 — bez obietnicy pełnej demonstracji
 
 - v2, 12 s: 0–2 rzeczywiste zdjęcie łóżka „Jak obraca się leże TWIST?”; 2–5 rzeczywista końcowa pozycja fotela „Obrót o 90°”; 5–8 realny kadr pokoju „Dobierz kierunek obrotu”; 8–12 CTA. Lektor: „TWIST ma obrotowe leże z funkcją fotela. Kierunek dobierz do pokoju. Zadzwoń do Siloe”. To zestaw stanów, bez udawanej animacji pomiędzy nimi.
-- v3, 15 s: 0–2 rzeczywisty fotel „Obrót o 90°”; 2–6 pełny nieruchomy kadr „Pozycja fotela”; 6–11 pracownik przy wolnej stronie „Wariant ustalamy przed wynajmem”; 11–15 CTA. Lektor: „Obrót o dziewięćdziesiąt stopni do fotela. Przed wynajmem ustal wariant i kierunek. Zadzwoń: 792 020 020”. Brak zdjęć oznacza nadal wyłącznie storyboard.
+- v3, 15 s: 0–2 rzeczywisty fotel „Obrót o 90°”; 2–6 pełny nieruchomy kadr „Pozycja fotela”; 6–11 pracownik przy wolnej stronie „Wariant ustalamy przed wynajmem”; 11–15 CTA. Lektor: „Obrót o dziewięćdziesiąt stopni do fotela. Przed wynajmem ustal wariant i kierunek. Zadzwoń: 14 694 10 00”. Brak zdjęć oznacza nadal wyłącznie storyboard.
 
 ## Adaptacje platform — fakty pozostają te same
 
@@ -60,7 +60,7 @@ Jeżeli rzeczywisty ruch wymaga dłuższego okna, obowiązuje bramka TWIST równ
 - 2–8 realne fragmenty regulacji 3F. Napis „3F: oparcie • nogi • wysokość”; lektor: „3F pozwala elektrycznie regulować oparcie, nogi i wysokość”.
 - 8–14 prawdziwe nieruchome stany TWIST: leżenie i fotel, wyraźne cięcie, bez generowania przejścia. Napis „TWIST: obrót leża do fotela”; lektor: „TWIST ma obrotowe leże z funkcją fotela”.
 - 14–20 oba łóżka w pełnym kadrze. Napis „Dobór do opieki i pokoju”; lektor: „Wybór zależy od sposobu opieki i układu pokoju”.
-- 20–24 „Zadzwoń: 792 020 020”; lektor: „Zapytaj Siloe o warunki wynajmu”.
+- 20–24 „Zadzwoń: 14 694 10 00”; lektor: „Zapytaj Siloe o warunki wynajmu”.
 
 Nie mówić, że jedno jest lepsze, bezpieczniejsze lub zastępuje drugie. Wersja FB 24 s jak wyżej; IG 22 s: skrócić wybór do 18 s, CTA 18–22, hak „3F i TWIST — co je wyróżnia?”; TT 20 s: hak „Regulacje czy obrót do fotela?”, 2–7 3F, 7–12 stany TWIST, 12–16 dobór, 16–20 CTA. To porównanie funkcji, nie instrukcja obrotu.
 
@@ -75,6 +75,6 @@ Nie mówić, że jedno jest lepsze, bezpieczniejsze lub zastępuje drugie. Wersj
 
 ## Prompt montażowy dla Higgsfield — po otrzymaniu plików
 
-„Zmontuj reklamę Siloe z dostarczonych rzeczywistych ujęć [3F-V01/02 lub TW-V01/02] według zatwierdzonego storyboardu [wariant/kanał]. Format 9:16, rozdzielczość 1080 × 1920, czas zgodny z tabelą, spokojne tempo. Zachowaj oryginalne klatki urządzenia, naturalną prędkość i kierunek ruchu. Dodaj tylko zatwierdzone napisy w montażu oraz dostarczone audio z prawami. Nie generuj żadnych klatek mechanizmu, nie twórz interpolowanych przejść funkcji. TWIST: ciągłe przygotowanie i obrót bez cięć, przyspieszeń, odbicia lustrzanego lub zmiany kolejności. Gdy materiał nie spełnia czasu lub bezpieczeństwa, zatrzymaj wykonanie i zgłoś brak. Zakończ jednym CTA: Zadzwoń: 792 020 020. Bez cen, niepotwierdzonych funkcji, danych zdrowotnych, gwarancji wyniku i domyślnie dodanego awatara”.
+„Zmontuj reklamę Siloe z dostarczonych rzeczywistych ujęć [3F-V01/02 lub TW-V01/02] według zatwierdzonego storyboardu [wariant/kanał]. Format 9:16, rozdzielczość 1080 × 1920, czas zgodny z tabelą, spokojne tempo. Zachowaj oryginalne klatki urządzenia, naturalną prędkość i kierunek ruchu. Dodaj tylko zatwierdzone napisy w montażu oraz dostarczone audio z prawami. Nie generuj żadnych klatek mechanizmu, nie twórz interpolowanych przejść funkcji. TWIST: ciągłe przygotowanie i obrót bez cięć, przyspieszeń, odbicia lustrzanego lub zmiany kolejności. Gdy materiał nie spełnia czasu lub bezpieczeństwa, zatrzymaj wykonanie i zgłoś brak. Zakończ jednym CTA: Zadzwoń: 14 694 10 00. Bez cen, niepotwierdzonych funkcji, danych zdrowotnych, gwarancji wyniku i domyślnie dodanego awatara”.
 
 To instrukcja montażu źródeł, nie prompt text-to-video produktu. Właściwy workflow montażowy i jego parametry wybrać dopiero przy zleceniu wykonania. Żadnej generatywnej animacji TWIST.

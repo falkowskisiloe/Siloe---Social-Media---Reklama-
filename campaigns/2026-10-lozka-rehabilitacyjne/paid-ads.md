@@ -6,25 +6,25 @@ Status: propozycja, żadnych aktywnych kampanii. Dwie osobne oferty, jeden głó
 
 | ID | Hipoteza | Tekst podstawowy Facebook | Nagłówek | Opis |
 | --- | --- | --- | --- | --- |
-| 3f-function | Funkcja | Elektryczna regulacja oparcia, nóg i wysokości — poznaj łóżko 3F do opieki domowej. Zapytaj Siloe o wynajem, dostępność i koszt dostawy. Zadzwoń: 792 020 020. | 3F: trzy elektryczne regulacje | Zapytaj o warunki wynajmu. |
-| 3f-process | Proces usługi | Wynajem łóżka 3F w Siloe obejmuje materac piankowy, montaż, instruktaż i wsparcie serwisowe. Warunki dostawy i dostępność ustalisz przed zamówieniem. Zadzwoń: 792 020 020. | Wynajem z montażem i instruktażem | Poznaj zakres usługi Siloe. |
-| 3f-concern | Obawa o miejsce | Czy łóżko zmieści się w wybranym pokoju? Przed wynajmem 3F warto sprawdzić miejsce ustawienia i drogę wniesienia. Zapytaj Siloe o wymiary konkretnego egzemplarza i dostawę. Zadzwoń: 792 020 020. | Zacznij od miejsca w pokoju | Ustal szczegóły przed wynajmem. |
-| twist-function | Funkcja | TWIST obraca leże o 90° do pozycji fotela. Kierunek dobiera się przed zamówieniem. Zapytaj Siloe o wariant, dostępność i warunki wynajmu. Zadzwoń: 792 020 020. | TWIST: obrót do pozycji fotela | Potwierdź oferowany wariant. |
-| twist-process | Proces doboru | Przed wynajmem TWIST ustal wariant, kierunek obrotu i miejsce w pokoju. Dostępność oraz warunki najmu potwierdzisz w rozmowie z Siloe. Zadzwoń: 792 020 020. | TWIST: dobór przed zamówieniem | Zapytaj o warunki wynajmu. |
-| twist-concern | Obawa o stronę | Lewy czy prawy obrót TWIST? Kierunek wybiera się na stałe, dlatego układ pokoju ma znaczenie. Zapytaj Siloe o dobór i wariant oferowany do wynajmu. Zadzwoń: 792 020 020. | Dobierz stronę obrotu TWIST | Sprawdź dopasowanie do pokoju. |
+| 3f-function | Funkcja | Elektryczna regulacja oparcia, nóg i wysokości — poznaj łóżko 3F do opieki domowej. Zapytaj Siloe o wynajem, dostępność i koszt dostawy. Zadzwoń: 14 694 10 00. | 3F: trzy elektryczne regulacje | Zapytaj o warunki wynajmu. |
+| 3f-process | Proces usługi | Wynajem łóżka 3F w Siloe obejmuje materac piankowy, montaż, instruktaż i wsparcie serwisowe. Warunki dostawy i dostępność ustalisz przed zamówieniem. Zadzwoń: 14 694 10 00. | Wynajem z montażem i instruktażem | Poznaj zakres usługi Siloe. |
+| 3f-concern | Obawa o miejsce | Czy łóżko zmieści się w wybranym pokoju? Przed wynajmem 3F warto sprawdzić miejsce ustawienia i drogę wniesienia. Zapytaj Siloe o wymiary konkretnego egzemplarza i dostawę. Zadzwoń: 14 694 10 00. | Zacznij od miejsca w pokoju | Ustal szczegóły przed wynajmem. |
+| twist-function | Funkcja | TWIST obraca leże o 90° do pozycji fotela. Kierunek dobiera się przed zamówieniem. Zapytaj Siloe o wariant, dostępność i warunki wynajmu. Zadzwoń: 14 694 10 00. | TWIST: obrót do pozycji fotela | Potwierdź oferowany wariant. |
+| twist-process | Proces doboru | Przed wynajmem TWIST ustal wariant, kierunek obrotu i miejsce w pokoju. Dostępność oraz warunki najmu potwierdzisz w rozmowie z Siloe. Zadzwoń: 14 694 10 00. | TWIST: dobór przed zamówieniem | Zapytaj o warunki wynajmu. |
+| twist-concern | Obawa o stronę | Lewy czy prawy obrót TWIST? Kierunek wybiera się na stałe, dlatego układ pokoju ma znaczenie. Zapytaj Siloe o dobór i wariant oferowany do wynajmu. Zadzwoń: 14 694 10 00. | Dobierz stronę obrotu TWIST | Sprawdź dopasowanie do pokoju. |
 
-CTA dla wszystkich: „Zadzwoń: 792 020 020”. Przycisk „Zadzwoń”, tylko jeśli dostępny w wybranej konfiguracji konta i placementu. Dla reklam prowadzących na stronę przycisk „Dowiedz się więcej” służy dojściu do kontaktu; strona docelowa konkretnego produktu, dalej telefon. Nie obiecywać przycisku telefonicznego na każdym placementcie.
+CTA dla wszystkich: „Zadzwoń: 14 694 10 00”. Przycisk „Zadzwoń”, tylko jeśli dostępny w wybranej konfiguracji konta i placementu. Dla reklam prowadzących na stronę przycisk „Dowiedz się więcej” służy dojściu do kontaktu; strona docelowa konkretnego produktu, dalej telefon. Nie obiecywać przycisku telefonicznego na każdym placementcie.
 
 ## Adaptacje IG i TikTok — oddzielny tekst i hak
 
 | ID | Instagram — tekst | TikTok — tekst / pierwsze 2 s |
 | --- | --- | --- |
-| 3f-function | Oparcie. Nogi. Wysokość. Poznaj trzy regulacje łóżka 3F i zapytaj Siloe o wynajem. Zadzwoń: 792 020 020. | Co reguluje ten pilot? Trzy ustawienia łóżka 3F na prawdziwym sprzęcie. Zapytaj o najem. Zadzwoń: 792 020 020. |
-| 3f-process | Materac, montaż i instruktaż — poznaj zakres wynajmu 3F w Siloe. Zapytaj o dostępność i dostawę. Zadzwoń: 792 020 020. | Co obejmuje wynajem 3F? Zobacz montaż i instruktaż Siloe. Warunki ustalisz w rozmowie. Zadzwoń: 792 020 020. |
-| 3f-concern | Miejsce w pokoju i droga wniesienia: od tego zacznij dobór 3F. Szczegóły egzemplarza ustal z Siloe. Zadzwoń: 792 020 020. | Czy łóżko 3F zmieści się w pokoju? Najpierw sprawdź miejsce i ustal wymiary egzemplarza. Zadzwoń: 792 020 020. |
-| twist-function | TWIST: obrót leża o 90° do fotela. Wariant i kierunek ustal przed wynajmem. Zadzwoń: 792 020 020. | Jak działa leże TWIST? Zobacz prawdziwe łóżko z funkcją fotela. Wariant najmu potwierdź w Siloe. Zadzwoń: 792 020 020. |
-| twist-process | TWIST: wariant, kierunek, miejsce w pokoju. Zacznij dobór od rozmowy z Siloe. Zadzwoń: 792 020 020. | Co ustalić przed wynajmem TWIST? Wariant, kierunek i warunki najmu. Zadzwoń: 792 020 020. |
-| twist-concern | Lewy czy prawy obrót? Dobierz TWIST do układu pokoju przed zamówieniem. Zadzwoń: 792 020 020. | W którą stronę powinien obracać się TWIST? Zależy od pokoju i wariantu. Zapytaj Siloe. Zadzwoń: 792 020 020. |
+| 3f-function | Oparcie. Nogi. Wysokość. Poznaj trzy regulacje łóżka 3F i zapytaj Siloe o wynajem. Zadzwoń: 14 694 10 00. | Co reguluje ten pilot? Trzy ustawienia łóżka 3F na prawdziwym sprzęcie. Zapytaj o najem. Zadzwoń: 14 694 10 00. |
+| 3f-process | Materac, montaż i instruktaż — poznaj zakres wynajmu 3F w Siloe. Zapytaj o dostępność i dostawę. Zadzwoń: 14 694 10 00. | Co obejmuje wynajem 3F? Zobacz montaż i instruktaż Siloe. Warunki ustalisz w rozmowie. Zadzwoń: 14 694 10 00. |
+| 3f-concern | Miejsce w pokoju i droga wniesienia: od tego zacznij dobór 3F. Szczegóły egzemplarza ustal z Siloe. Zadzwoń: 14 694 10 00. | Czy łóżko 3F zmieści się w pokoju? Najpierw sprawdź miejsce i ustal wymiary egzemplarza. Zadzwoń: 14 694 10 00. |
+| twist-function | TWIST: obrót leża o 90° do fotela. Wariant i kierunek ustal przed wynajmem. Zadzwoń: 14 694 10 00. | Jak działa leże TWIST? Zobacz prawdziwe łóżko z funkcją fotela. Wariant najmu potwierdź w Siloe. Zadzwoń: 14 694 10 00. |
+| twist-process | TWIST: wariant, kierunek, miejsce w pokoju. Zacznij dobór od rozmowy z Siloe. Zadzwoń: 14 694 10 00. | Co ustalić przed wynajmem TWIST? Wariant, kierunek i warunki najmu. Zadzwoń: 14 694 10 00. |
+| twist-concern | Lewy czy prawy obrót? Dobierz TWIST do układu pokoju przed zamówieniem. Zadzwoń: 14 694 10 00. | W którą stronę powinien obracać się TWIST? Zależy od pokoju i wariantu. Zapytaj Siloe. Zadzwoń: 14 694 10 00. |
 
 Nagłówki i opisy jak w tabeli bazowej tam, gdzie platforma ma takie pola; nie zakładać identycznego układu interfejsu. Różnice w montażu H1: shorts.md. Dla H2/H3 składać krótkie filmy z odpowiednich realnych kadrów images.md i haków creative-concepts.md: 0–2 hak, 2–8 dowód, 8–12 doprecyzowanie, 12–16 CTA. TWIST H2/H3 używa pozycji nieruchomych i realnego pokoju, nie udaje pełnej demonstracji ruchu.
 

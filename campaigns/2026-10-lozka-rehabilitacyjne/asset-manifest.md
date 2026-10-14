@@ -25,6 +25,10 @@ Po dostarczeniu uzupełnić każdy rekord: plik, właściciel praw, data zgody, 
 
 Na planie: pion 1080p lub wyższy, stabilny telefon, naturalne światło, bez dokumentów, ekranów klienta i danych w tle. Bez rzeczywistych pacjentów. Preferować puste łóżko obsługiwane przez przeszkolonego operatora. Nie inscenizować pozytywnych opinii. Film demonstracyjny nie zastępuje instruktażu.
 
+## Aktualizacja 2026-10-14 — materiały z Google Drive właściciela
+
+Obejrzano 9 zdjęć: 5 × 3F/ANTAR PSL013 (1500 px, packshoty na białym tle) i 4 × TWIST (750 px, packshoty). Nie znaleziono żadnego wideo. Szczegóły, przydatność i braki: [ad-proposal-3f.md](ad-proposal-3f.md), sekcja 1. Najbliższe zastępstwo dla 3F-P01 to `02.ANTAR-Model PSL013-Siloe24.jpg` (całe łóżko z materacem). Pliki nie zostały skopiowane do `assets/products/`, ponieważ prawa (B15) i zgodność modelu (B14) są niepotwierdzone. Status praw wszystkich rekordów powyżej: nadal niepotwierdzone. Archiwum floty `wypozyczalnia-sprzet-zdjecia/` to zdjęcia ewidencyjne z magazynu — nie do reklamy. Szkice w `sketches/` używają tych zdjęć tylko do oceny wewnętrznej.
+
 ## Higgsfield — rzeczywisty zakres pracy
 
 2026-10-14 połączony connector zwrócił rekomendacje modeli do edycji zdjęć z referencją: marketing_studio_image i ms_image. Nie wysłano żadnego zlecenia generacji, nie utworzono finalnych wizualizacji ani nie wydano kredytów. ms_image wymaga osobnego wyboru stylu przez użytkownika — nie wybrano go. Propozycja do ponownej oceny po referencjach: test edycji otoczenia w marketing_studio_image; żadna rekomendacja nie gwarantuje zachowania geometrii. Model i parametry ponownie zweryfikować przed produkcją.
