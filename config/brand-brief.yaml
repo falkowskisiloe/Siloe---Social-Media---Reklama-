@@ -1,0 +1,45 @@
+brand:
+  name: "Siloe"
+  legal_name: "DO UZUPEŁNIENIA"
+  website: "https://siloe24.pl"
+  phone: "792 020 020"
+  email: "kontakt@siloe24.pl"
+  address: "Pułaskiego 7/2, 42-300 Myszków"
+
+market:
+  country: "Polska"
+  service_area: "DO POTWIERDZENIA: miasta/powiaty oraz koszt dostawy"
+  languages:
+    - "pl-PL"
+
+positioning:
+  promise: "Specjalistyczny sprzęt medyczny do opieki domowej z dostawą, montażem i instruktażem."
+  differentiators:
+    - "Dostawa do domu"
+    - "Profesjonalny montaż"
+    - "Instruktaż obsługi"
+    - "Wsparcie serwisowe w trakcie najmu"
+  proof:
+    - "Do uzupełnienia: udokumentowany czas realizacji, liczba obsłużonych klientów i zweryfikowane opinie"
+
+voice:
+  traits:
+    - "spokojny"
+    - "praktyczny"
+    - "życzliwy"
+    - "bez presji"
+  avoid:
+    - "straszenie chorobą"
+    - "obietnice leczenia"
+    - "zawstydzanie"
+    - "sztuczny korporacyjny język"
+
+visuals:
+  logo_path: "DO UZUPEŁNIENIA"
+  primary_color: "DO UZUPEŁNIENIA"
+  secondary_color: "DO UZUPEŁNIENIA"
+  fonts: []
+
+approval:
+  owner: "DO UZUPEŁNIENIA"
+  medical_or_compliance_reviewer: "DO UZUPEŁNIENIA"
