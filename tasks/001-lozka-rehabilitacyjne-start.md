@@ -69,3 +69,7 @@ Sekwencja: pozycja leżąca → przygotowanie zgodne z instrukcją → pełny ob
 Jeśli brakuje zdjęć lub filmu produktu, przygotuj teksty, storyboardy i prompty, ale nie generuj finalnych wizualizacji. Jeśli brakuje potwierdzenia okresu cenowego, nie umieszczaj ceny na grafice. Jeśli brak potwierdzenia wariantu TWIST, nie używaj słowa „pionizacja” jako funkcji wynajmowanego egzemplarza.
 
 Zakończ na etapie `creative_ready` i przedstaw pakiet do zatwierdzenia właścicielowi.
+
+## Wykonanie — 2026-10-14
+
+Status opracowania: `creative_ready`. [Kompletny pakiet i nawigacja](../campaigns/2026-10-lozka-rehabilitacyjne/brief.md); [karta decyzji i blokady](../campaigns/2026-10-lozka-rehabilitacyjne/review.md). Przygotowano dokumentację i teksty zgodnie z warunkiem braku źródeł wizualnych. Nie wygenerowano finalnych obrazów ani filmów. Zatwierdzenie właściciela oczekuje; nic nie opublikowano i nie uruchomiono wydatków.
