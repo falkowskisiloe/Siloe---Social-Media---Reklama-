@@ -1,0 +1,69 @@
+offers:
+  - id: "bed-electric-3-function-rental"
+    status: "ready_after_price_period_confirmation"
+    name: "Łóżko rehabilitacyjne elektryczne 3-funkcyjne"
+    source_url: "https://siloe24.pl/produkt/lozko-rehabilitacyjne-elektryczne-3-funkcyjne/"
+    offer_type: "wynajem"
+    customer_problem: "Organizacja wygodniejszej i bezpieczniejszej opieki nad osobą o ograniczonej mobilności w warunkach domowych."
+    suitable_for: "Opieka domowa, czas po zabiegach, opieka długoterminowa oraz placówki opiekuńcze — bez diagnozowania odbiorcy reklamy."
+    price:
+      displayed_amount_pln: 150
+      period: "DO POTWIERDZENIA przed reklamą"
+      deposit_pln: null
+      note: "Strona pokazuje 150 zł przy opcji Wynajem, ale nie podaje jednoznacznie okresu rozliczeniowego w widocznym opisie."
+    availability: "Strona używa sformułowania 'od ręki'; potwierdzić stan przed każdą kampanią."
+    delivery_area: "DO POTWIERDZENIA"
+    delivery_time: "Elastyczny termin i szybka realizacja według strony; wymaga konkretu przed reklamą."
+    included:
+      - "Dopasowany materac piankowy"
+      - "Dostawa"
+      - "Profesjonalny montaż"
+      - "Instruktaż obsługi"
+      - "Wsparcie serwisowe w trakcie najmu"
+    verified_claims:
+      - claim: "Elektryczna regulacja oparcia, segmentu nóg i wysokości całego łóżka"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+      - claim: "Barierki boczne i koła z hamulcem"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+      - claim: "Maksymalne obciążenie do 200 kg"
+        evidence: "Karta produktu Siloe24; potwierdzić tabliczką znamionową konkretnego modelu"
+      - claim: "Przybliżony wymiar materaca 90 x 200 cm i zasilanie 230 V"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+    call_to_action: "Zadzwoń pod 792 020 020 i sprawdź dostępność oraz koszt dostawy."
+
+  - id: "bed-twist-chair-rental"
+    status: "blocked_until_variant_and_price_confirmation"
+    name: "Łóżko rehabilitacyjne obrotowe TWIST z funkcją fotela"
+    source_url: "https://siloe24.pl/produkt/lozko-rehabilitacyjne-obrotowe-twist-z-funkcja-fotela-i-pionizacji/"
+    offer_type: "wynajem lub zakup"
+    customer_problem: "Ułatwienie przejścia z leżenia do stabilnej pozycji siedzącej bokiem oraz transferu przy mniejszym wysiłku opiekuna."
+    suitable_for: "Osoby mające trudność z siadaniem, wstawaniem lub transferem oraz ich opiekunowie — zastosowanie dobiera specjalista lub rodzina po konsultacji."
+    price:
+      displayed_range_pln: "500–14999"
+      rental_amount_pln: 500
+      period: "DO POTWIERDZENIA przed reklamą"
+      purchase_amount_pln: 14999
+      note: "Zakres na stronie łączy wynajem i zakup; warunki trzeba rozdzielić przed publikacją."
+    availability: "DO POTWIERDZENIA"
+    delivery_area: "DO POTWIERDZENIA"
+    delivery_time: "Strona podaje około 5 dni roboczych dla realizacji zamówienia; potwierdzić dla wynajmu i regionu."
+    included:
+      - "Obrotowe leże zmieniające pozycję na fotel"
+      - "Regulacja oparcia i sekcji nóg"
+      - "Regulacja wysokości platformy 45–85 cm"
+      - "Cztery poręcze boczne i cztery koła z hamulcem"
+      - "Wysięgnik z uchwytem i dwa piloty przewodowe"
+    verified_claims:
+      - claim: "Leże obraca się o 90 stopni do pozycji fotela"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+      - claim: "Wariant obrotu lewy lub prawy wybiera się na stałe"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+      - claim: "Maksymalna masa pacjenta 120 kg, bezpieczne obciążenie robocze 175 kg"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+      - claim: "Wymiary zewnętrzne 215 x 102 x 87 cm; materac 90 x 200 cm"
+        evidence: "Karta produktu Siloe24, odczyt 2026-10-14"
+    blocked_claims:
+      - "Nie reklamować pionizacji, dopóki Siloe nie potwierdzi, czy wynajmowany egzemplarz jest wersją z pionizacją. Karta produktu opisuje wariant bazowy fotela i nazywa pionizację osobnym produktem."
+      - "Nie używać obietnic samodzielnego wstawania, redukcji bólu, zapobiegania upadkom ani poprawy krążenia bez zatwierdzonego kontekstu i dowodu."
+    mandatory_safety_note: "Materiał pokazujący obrót musi zachować prawidłową sekwencję: stabilna pozycja na środku, opuszczenie barierek po stronie obrotu, dłonie i stopy w obrysie, obrót, a po powrocie ponowne podniesienie barierek."
+    call_to_action: "Zadzwoń pod 792 020 020, aby dobrać kierunek obrotu i potwierdzić wariant oraz warunki wynajmu."
