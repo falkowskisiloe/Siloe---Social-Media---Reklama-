@@ -1,0 +1,19 @@
+# Dane lokalne i tajne
+.env
+.env.*
+secrets/
+credentials/
+
+# Materiały robocze i ciężkie pliki
+tmp/
+renders/
+exports/
+node_modules/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Nie zapisuj surowych eksportów leadów
+data/leads/
+data/raw/
