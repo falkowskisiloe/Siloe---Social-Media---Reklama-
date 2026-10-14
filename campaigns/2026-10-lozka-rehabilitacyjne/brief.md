@@ -1,7 +1,7 @@
 # Zadanie 001 — pakiet do oceny właściciela
 
 - Status: `creative_ready` — gotowe koncepcje, teksty i instrukcje produkcji; nie oznacza gotowych plików zdjęć/wideo ani zgody na emisję.
-- Wersja: 1.0, 2026-10-14. Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
+- Wersja: 1.1, 2026-10-14 (niezależny przegląd — zmiany w review.md). Autor opracowania: Codex. Baza repozytorium: `52e24eddff1b0f3917c4855885f1bca48c4c7a24`.
 - Zadanie: [001](../../tasks/001-lozka-rehabilitacyjne-start.md); kontrakt: [campaign-package-contract](../../tools/campaign-package-contract.md).
 - Decyzja właściciela: OCZEKUJE. Publikacja: NIEZATWIERDZONA. Budżet: NIEZATWIERDZONY. Harmonogram: nie utworzono.
 
@@ -15,6 +15,8 @@
 | Główna myśl | Trzy regulacje i pomoc w uruchomieniu sprzętu | Rzeczywisty obrót do fotela i dobór strony do pokoju |
 | Dowód | Prawdziwe ujęcia regulacji oraz montażu/instruktażu | Prawdziwy ciągły ruch konkretnego egzemplarza |
 | Główny CTA | Zadzwoń: 792 020 020 | Zadzwoń: 792 020 020 |
+
+Statusy w config/offers.yaml bez zmian: 3F `ready_after_price_period_confirmation`, TWIST `blocked_until_variant_and_price_confirmation`.
 
 Jeden wspólny mierzalny cel biznesowy: kwalifikowane kontakty telefoniczne o wynajem właściwego produktu. Miernik główny: liczba takich kontaktów; w płatnym teście koszt kwalifikowanego kontaktu (CPQL). Kwalifikacja oznacza zapytanie o 3F/TWIST, termin i miejscowość w zatwierdzonym obszarze oraz chęć poznania oferty. Bez diagnozy i bez danych zdrowotnych w raporcie. Rezerwacje i przychód to wynik dalszej obsługi; kliknięcie telefonu nie jest kontaktem.
 

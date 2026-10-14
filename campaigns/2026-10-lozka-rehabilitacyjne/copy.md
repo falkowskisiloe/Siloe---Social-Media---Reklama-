@@ -49,7 +49,7 @@ Zadzwoń: 792 020 020.
 
 ## TWIST — Facebook 2: obawa
 
-Lewy czy prawy obrót łóżka TWIST? Kierunek wybiera się na stałe, dlatego warto zacząć od układu pokoju i miejsca przy łóżku. Siloe pomoże ustalić wariant oferowany do wynajmu oraz jego warunki. Ten materiał dotyczy obrotu leża do pozycji fotela.
+Lewy czy prawy obrót łóżka TWIST? Kierunek wybiera się na stałe, dlatego warto zacząć od układu pokoju i miejsca przy łóżku. Siloe pomoże ustalić wariant oferowany do wynajmu oraz jego warunki.
 
 Zadzwoń: 792 020 020.
 
@@ -93,5 +93,22 @@ Facebook: „3F pozwala regulować oparcie, nogi i wysokość. TWIST ma obrotowe
 Instagram: „3F i TWIST — poznaj funkcje przed wyborem. Regulacje oparcia, nóg i wysokości w 3F; obrót leża do fotela w TWIST. Dobór zacznij od sposobu opieki i pokoju. Zadzwoń: 792 020 020. #Siloe #WynajemLozka”.
 
 TikTok: „Regulacje 3F czy obrotowe leże TWIST? Zobacz, co je wyróżnia, i zapytaj o dobór do pokoju. Zadzwoń: 792 020 020. #Siloe #TWIST #Lozko3F”.
+
+## Przypisanie tekstów do UTM
+
+Wartości `utm_content` z [utm-register.csv](utm-register.csv); `utm_campaign` = `2026-10_beds_<3f|twist>_lead`, porównanie: `_awareness`.
+
+| Tekst | 3F | TWIST |
+| --- | --- | --- |
+| Facebook 1 | function_post_v1 | function_post_v1 |
+| Facebook 2 | process_post_v1 | concern_post_v1 |
+| Instagram 1: Reel | function_reel_v1 | function_reel_v1 |
+| Instagram 2: karuzela | process_carousel_v1 | process_carousel_v1 |
+| TikTok 1 | function_vertical_video_v1 | function_vertical_video_v1 |
+| TikTok 2 | concern_vertical_video_v1 | concern_vertical_video_v1 |
+| B2B Facebook | b2b_post_v1 | b2b_post_v1 |
+| Porównanie FB / IG / TikTok | comparison_carousel_v1 lub comparison_reel_v1 / comparison_vertical_video_v1 — link do produktu, którego dotyczy wezwanie | jw. |
+
+Organiczny post FB z linkiem TWIST generuje podgląd z tytułem strony zawierającym „pionizację”. Do czasu decyzji B04 publikować TWIST bez podglądu linku albo z linkiem wyłącznie w polu, które nie pokazuje tytułu strony.
 
 Teksty mówiące „pokazujemy” / „pokaz” można wykorzystać dopiero z zatwierdzonymi realnymi kadrami; nie do pustej planszy ani storyboardu.
