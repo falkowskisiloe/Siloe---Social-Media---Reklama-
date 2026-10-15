@@ -1,6 +1,6 @@
 # Brief kampanii — łóżko rehabilitacyjne elektryczne 3-funkcyjne (Meta, 2026-10)
 
-**Status:** `creative_ready` — projekty robocze do akceptacji właściciela. Nic nie zostało opublikowane ani uruchomione, nie powstały też żadne wydatki reklamowe.
+**Status:** H1 i H2 `publication_ready` (zadanie 003, 2026-10-15); H3 `withheld`. Nic nie zostało opublikowane ani uruchomione, nie powstały też żadne wydatki reklamowe.
 **Zadanie:** `tasks/002-lozko-3-funkcyjne-meta-production.md`
 **Data przygotowania:** 2026-10-15
 **Poza zakresem tej rundy:** TWIST i karuzela produktowa.

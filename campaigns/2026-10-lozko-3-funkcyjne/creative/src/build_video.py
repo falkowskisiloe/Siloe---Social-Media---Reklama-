@@ -1,12 +1,13 @@
 """Motion graphic 9:16 z zaakceptowanego zdjęcia łóżka 3F: najazd kamery, zbliżenie na pilot,
-animowane etykiety, lista usług, cena robocza i CTA. Łóżko nie jest generowane ani animowane mechanicznie.
-Użycie: python3 build_video.py <work> <fonts> <out_dir> <15|6> [cover]"""
+animowane etykiety, lista usług, cena i CTA. Bez napisów technicznych (status tylko w manifeście). Łóżko nie jest generowane ani animowane mechanicznie.
+Użycie: python3 build_video.py <work> <fonts> <out_dir> <15|6|cover> [wersja]"""
 import sys, os, subprocess, math
 sys.path.insert(0, os.path.dirname(__file__))
 import layout as L
 from PIL import Image, ImageDraw
 
 WORK, FONTS, OUT, MODE = sys.argv[1:5]
+VER = sys.argv[5] if len(sys.argv) > 5 else 'v2'
 L.setup(FONTS, f'{WORK}/logo-siloe.png', f'{WORK}/s4.png')
 W, H, FPS = 1080, 1920, 30
 os.makedirs(OUT, exist_ok=True)
@@ -66,10 +67,9 @@ def heading(lines, top=300, size=76, sub=None):
     return card
 
 
-TAG = layer(lambda im: L.draft_tag(im, 'PROJEKT ROBOCZY · cena i numer do zatwierdzenia'))
 
 
-def end_card(note=True):
+def end_card():
     def fn(im):
         d = ImageDraw.Draw(im)
         x0, y0, x1, y1 = 70, 720, 1010, 1240
@@ -83,11 +83,6 @@ def end_card(note=True):
         d.text((W / 2, y0 + 175), 'Zadzwoń i sprawdź', font=L.F(600, 58), fill=L.WHITE, anchor='ms')
         d.text((W / 2, y0 + 245), 'dostępność', font=L.F(600, 58), fill=L.WHITE, anchor='ms')
         d.text((W / 2, y0 + 380), '14 694 10 00', font=L.F(700, 112), fill=L.WHITE, anchor='ms')
-        if note:
-            f = L.F(600, 26); t = 'numer do weryfikacji przed emisją'
-            tw = d.textlength(t, font=f)
-            d.rounded_rectangle([W / 2 - tw / 2 - 18, y0 + 420, W / 2 + tw / 2 + 18, y0 + 466], radius=22, fill=(196, 40, 40))
-            d.text((W / 2, y0 + 443), t, font=f, fill=L.WHITE, anchor='mm')
     return layer(fn)
 
 
@@ -125,10 +120,6 @@ def run15():
     MTC = layer(lambda im: L.callout(im, ['Materac', 'w zestawie'], (mat[0] + 120, mat[1] - 230), 40, mat, side='left'))
     def stk(im):
         L.sticker(im, 850, 600, 130, top='wynajem łóżka')
-        d = ImageDraw.Draw(im); f = L.F(600, 24); t = 'cena robocza – do zatwierdzenia'
-        tw = d.textlength(t, font=f)
-        d.rounded_rectangle([850 - tw / 2 - 16, 755, 850 + tw / 2 + 16, 797], radius=20, fill=(196, 40, 40))
-        d.text((850, 776), t, font=f, fill=L.WHITE, anchor='mm')
     STK = layer(stk)
     END = end_card()
     return T, cam, [
@@ -175,7 +166,6 @@ def render(T, cam, items, path):
         for lay, t0, t1, fi, fo in items:
             a = env(t, t0, t1, fi, fo)
             put(im, lay, a, dy=(1 - a) * 24 if a < 1 else 0)
-        put(im, TAG, 1)
         p.stdin.write(im.convert('RGB').tobytes())
     p.stdin.close(); p.wait()
 
@@ -194,10 +184,10 @@ if MODE == 'cover':
         d.rounded_rectangle([W / 2 - l.width / 2 - 40, 1480, W / 2 + l.width / 2 + 40, 1480 + lh + 50], radius=36, fill=(255, 255, 255, 240))
         x.alpha_composite(l, (int(W / 2 - l.width / 2 + 6), 1505))
     fn(lay); im.alpha_composite(lay)
-    im = im.convert('RGB'); im.save(f'{OUT}/3f-meta-reel-cover-v1.png'); im.save(f'{OUT}/3f-meta-reel-cover-v1.jpg', quality=93)
+    im = im.convert('RGB'); im.save(f'{OUT}/3f-meta-reel-cover-{VER}.png'); im.save(f'{OUT}/3f-meta-reel-cover-{VER}.jpg', quality=93)
     print('cover ok')
 else:
     T, cam, items = run15() if MODE == '15' else run6()
-    out = f'{OUT}/3f-meta-reel-{MODE}s-v1-silent.mp4'
+    out = f'{OUT}/3f-meta-reel-{MODE}s-{VER}-silent.mp4'
     render(T, cam, items, out)
     print(out)

@@ -1,6 +1,6 @@
 # H1 — pełna obsługa jednym telefonem
 
-**Status:** roboczy · do testu jako pierwszy · nic nie opublikowano
+**Status:** `publication_ready` (2026-10-15) · nic nie opublikowano · emisja wymaga osobnej, jawnej zgody właściciela
 **Hipoteza:** osoby organizujące opiekę domową wybiorą ofertę, w której jeden telefon załatwia całą organizację łóżka.
 **Hak:** „Jeden telefon — my zajmiemy się resztą.”
 **Dowód:** dostawa, wniesienie, montaż, instruktaż; materac w zestawie.
@@ -18,15 +18,14 @@
 
 Nie piszemy „w cenie” ani „bezpłatnie”, dopóki właściciel nie potwierdzi, które usługi obejmuje 150 zł / miesiąc. Naklejka na grafice opisuje cenę jako „wynajem łóżka · 150 zł miesięcznie”.
 
-## Tekst na grafikach (`3f-meta-feed-4x5-h1-v1`, `-feed-1x1-`, `-story-9x16-`)
+## Tekst na grafikach (`3f-meta-feed-4x5-h1-v2`, `3f-meta-feed-1x1-h1-v2`, `3f-meta-story-9x16-h1-v2`)
 
 - Nagłówek: „Jeden telefon.” / „My zajmiemy się resztą.”
 - Podtytuł: „Od telefonu do gotowego łóżka”
 - Lista: ✓ Dowozimy ✓ Wnosimy ✓ Montujemy ✓ Szkolimy
 - Etykiety: „Materac w zestawie”, „Elektryczna regulacja”
-- Naklejka: „wynajem łóżka · 150 zł · miesięcznie” — **cena robocza**
-- Panel: „Zadzwoń i sprawdź dostępność” · 14 694 10 00 · „Wynajem łóżka rehabilitacyjnego” (4:5)
-- Znacznik roboczy (usunąć w wersji do emisji): „PROJEKT ROBOCZY · cena, numer i zakres usług do zatwierdzenia”
+- Naklejka: „wynajem łóżka · 150 zł · miesięcznie”
+- Panel: „Zadzwoń i sprawdź dostępność” · 14 694 10 00; w 4:5 dodatkowo „Wynajem łóżka rehabilitacyjnego”
 
 ## Tekst alternatywny
 

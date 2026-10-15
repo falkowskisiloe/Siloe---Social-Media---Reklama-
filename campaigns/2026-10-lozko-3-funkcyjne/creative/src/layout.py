@@ -46,6 +46,13 @@ def base_from_outpaint(op_path, W, H, k, src_top_in_op, src_w_in_op, shift_y, sh
     opk = op.resize((round(op.width * k), round(op.height * k)), Image.LANCZOS)
     x0 = (opk.width - W) // 2 + shift_x
     y0 = shift_y
+    if y0 + H > opk.height:
+        # dolny margines: lustrzane odbicie pasa podłogi (strefa interfejsu, poza produktem)
+        extra = y0 + H - opk.height
+        strip = opk.crop((0, opk.height - extra, opk.width, opk.height)).transpose(Image.FLIP_TOP_BOTTOM)
+        ext = Image.new('RGB', (opk.width, opk.height + extra))
+        ext.paste(opk, (0, 0)); ext.paste(strip, (0, opk.height))
+        opk = ext
     canvas = opk.crop((x0, y0, x0 + W, y0 + H)).convert('RGBA')
     s4 = CFG['s4']
     sw = round(src_w_in_op * k)
@@ -217,12 +224,3 @@ def logo_box(im, box, r, logo_h):
     l = lg.resize((round(lg.width * logo_h / lg.height), logo_h), Image.LANCZOS)
     x0, y0, x1, y1 = box
     im.alpha_composite(l, (round((x0 + x1) / 2 - l.width / 2 + 8), round((y0 + y1) / 2 - l.height / 2 + 4)))
-
-
-def draft_tag(im, text, blocked=False):
-    d = ImageDraw.Draw(im)
-    f = F(600, 19)
-    tw = text_w(d, text, f)
-    col = (196, 40, 40) if blocked else NAVY
-    d.rounded_rectangle([14, 12, 14 + tw + 28, 44], radius=16, fill=col + (215,))
-    d.text((28, 28), text, font=f, fill=WHITE, anchor='lm')

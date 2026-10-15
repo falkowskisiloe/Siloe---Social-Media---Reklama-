@@ -38,3 +38,26 @@ Po uzyskaniu odpowiedzi należy zaktualizować `config/brand-brief.yaml` i `conf
 | Muzyka | podkład autorski Siloe (generowany skryptem) | zaakceptować albo wybrać utwór z Meta Sound Collection | |
 | Znaczniki „PROJEKT ROBOCZY” na plikach | widoczne | usunąć w wersji do emisji po zatwierdzeniu danych | |
 | Zgoda na emisję i budżet | brak | wymagana osobna, jawna decyzja | |
+
+## Decyzje właściciela — zadanie 003 (2026-10-15)
+
+| Element | Decyzja | Źródło |
+|---|---|---|
+| Kierunek H1 i H2 | zaakceptowany; czyste pliki oznaczone `publication_ready` | polecenie właściciela 2026-10-15 |
+| Cena na kreacjach | „150 zł miesięcznie” — zachować | polecenie właściciela 2026-10-15 |
+| Numer na kreacjach | 14 694 10 00 — zachować | polecenie właściciela 2026-10-15 |
+| H3 „48 godzin” | `withheld` — poza pakietem emisji do potwierdzenia obszaru, dostępności i weekendów | zadanie 003 |
+| Napisy techniczne na obrazie i w filmie | zakazane; statusy tylko w manifeście, checkliście i QA (`AGENTS.md`) | zadanie 003 |
+
+## Warunki, które nadal wymagają decyzji przed uruchomieniem emisji
+
+`publication_ready` oznacza czyste, technicznie gotowe pliki. Nie jest to zgoda na emisję.
+
+| Element | Status |
+|---|---|
+| Zgoda na emisję, budżet i harmonogram | brak — wymagana osobna, jawna decyzja |
+| Czy dostawa, wniesienie, montaż i instruktaż mieszczą się w 150 zł / miesiąc | niepotwierdzone. Teksty nie piszą „w cenie”, ale lista usług w H1 stoi obok ceny |
+| Lista miast i powiatów dostawy (kierowanie geograficzne) | niepotwierdzona |
+| Prawa do zdjęcia produktu w reklamie płatnej (B15) | niepotwierdzone |
+| Wysięgnik z uchwytem widoczny na zdjęciu | decyzja właściciela |
+| Aktualizacja `config/offers.yaml` i `config/brand-brief.yaml` (okres ceny, numer reklamowy) | do wykonania po potwierdzeniu właściciela na piśmie |

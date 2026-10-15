@@ -51,3 +51,18 @@ Wyceny bez wydatku: wideo `kling3_0`, 5 s, 9:16, z obrazu = **10 kredytów**. Pr
 
 - Poppins 400/500/600/700 (SIL Open Font License 1.1), pakiet npm `@fontsource/poppins@5.0.14`; podzbiory latin + latin-ext scalone (polskie znaki).
 - Muzyka: wygenerowana w całości skryptem `music.py`, bez próbek i utworów osób trzecich. Brak praw osób trzecich do rozliczenia. Alternatywa przy emisji: Meta Sound Collection.
+
+## Zadanie 003 — czysty pakiet `publication_ready` (2026-10-15)
+
+- **Kredyty:** 0. Nie było nowej generacji Higgsfield; saldo 1151,25, pula 48,75 / 50 bez zmian.
+- **Skrypty:** `build_static.py <work> <fonts> <out> v2`; `build_video.py <work> <fonts> <out> 15|6|cover v2`. Muzyka bez zmian (`music.py`, te same pliki 15 s i 6 s).
+
+| Zmiana | Szczegóły |
+|---|---|
+| Usunięte napisy techniczne | `draft_tag` (statyki i filmy), dopisek „cena robocza – do zatwierdzenia” pod naklejką w filmie, dopisek „numer do weryfikacji przed emisją” na planszy końcowej |
+| 9:16 | `base_from_outpaint(op916, k=0.705, src_top=425, shift_y=150)`; panel 1318–1468; nagłówek 68 px; dolny pas uzupełniony odbiciem podłogi (`layout.py`) |
+| 1:1 | lista 56 px / 31 px, etykiety 29 px, panel 26/74 px, „Elektryczna regulacja” po prawej stronie pilota |
+| H3 | czysta wersja bez paska, nazwa `-v2-withheld` (tylko JPG w bibliotece) |
+| Próby | 1 eksport statyk, 1 eksport filmów 15 s / 6 s i okładki. Kontrola: 9 statyk + okładka + 11 klatek filmów — bez poprawek |
+| Biblioteka mediów | 21 nowych plików (`media_upload` → PUT → `media_confirm`), 21/21 PUT HTTP 200, SHA-256 zgodne po pobraniu |
+| Wycofane | wszystkie pliki v1 (`superseded` w `manifest.md`) |

@@ -1,6 +1,6 @@
-# H3 — czas realizacji (SZKIC, ZABLOKOWANY)
+# H3 — czas realizacji (`withheld`)
 
-**Status:** **ZABLOKOWANY** — nie emitować. Odblokowanie wymaga pisemnego potwierdzenia: realizacji w 48 godzin, obszaru, dostępności sprzętu, zasad weekendowych i godzin odbierania telefonu.
+**Status:** `withheld` — poza pakietem emisji. Odblokowanie wymaga pisemnego potwierdzenia: realizacji w 48 godzin, obszaru, dostępności sprzętu, zasad weekendowych i godzin odbierania telefonu.
 **Hipoteza:** szybkość przygotowania domu jest najważniejszym powodem kontaktu, np. przed powrotem bliskiej osoby do domu.
 **Hak roboczy:** „Łóżko gotowe w domu w 48 godzin.”
 **Dowód:** czas realizacji — **niepotwierdzony**.
@@ -16,7 +16,7 @@
 **Przycisk:** Zadzwoń teraz
 **CTA w treści:** „Zadzwoń i potwierdź termin”
 
-## Tekst na grafikach (`3f-meta-feed-4x5-h3-v1`, `-feed-1x1-`, `-story-9x16-`)
+## Tekst na grafikach (`3f-meta-feed-4x5-h3-v2-withheld`, `3f-meta-feed-1x1-h3-v2-withheld`, `3f-meta-story-9x16-h3-v2-withheld`)
 
 Zaakceptowany przez właściciela układ (tekst 1:1 z grafiki bazowej) z drugą etykietą „Elektryczna regulacja”:
 
@@ -24,7 +24,7 @@ Zaakceptowany przez właściciela układ (tekst 1:1 z grafiki bazowej) z drugą 
 - Podtytuł: „Od telefonu do Twoich drzwi”
 - Lista: ✓ Dowozimy ✓ Wnosimy ✓ Montujemy ✓ Szkolimy
 - Panel: „Zadzwoń i potwierdź termin” · 14 694 10 00 · „Odbieramy 7 dni w tygodniu” (4:5)
-- Czerwony znacznik: „ZABLOKOWANE · 48 h, obszar, weekendy i godziny do potwierdzenia”
+- Bez znaczników na obrazie; status `withheld` zapisany wyłącznie w nazwie pliku i manifeście
 
 ## Tekst alternatywny
 
