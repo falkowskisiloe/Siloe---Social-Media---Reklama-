@@ -37,3 +37,24 @@ Strefy są marginesami projektowymi, nie gwarancją wszystkich wariantów interf
 4. Pierwszy upload okładki zastąpiono po podniesieniu logo. Nie używać ID 4913122d… i 4826660b…; aktualne ID są w manifeście.
 
 Koszt tej rundy: **0 kredytów**. Nie opublikowano materiałów, nie wysłano ich klientom i nie uruchomiono wydatków.
+
+## Feed poziomy 1,91:1 (1200 × 628) — kontrola 2026-10-15
+
+Pliki: `3f-meta-feed-1.91x1-h1-v1` i `3f-meta-feed-1.91x1-h2-v1` (PNG + JPG). Wynik: **PASS — publication_ready**. Koszt: 0 kredytów, bez generacji.
+
+| Kontrola | Wynik |
+|---|---|
+| Wymiary i format | 1200 × 628 px, RGB, PNG i JPG (jakość 93) |
+| Układ | prawdziwy układ poziomy: panel tekstowy 540 px + zdjęcie 660 px. Nie jest to kadr innych formatów; brak rozmytych boków, odbić i rozszerzenia produktu |
+| Produkt | piksele łóżka identyczne z S4 po przeskalowaniu (średnia różnica 0,00/255). Łóżko z wysięgnikiem w całości: marginesy 28 px po bokach, 50 px u góry, 69 px u dołu |
+| Polskie znaki | Poppins: „Łóżko”, „łóżka”, „się resztą”, „Zadzwoń”, „dostępność”, „miesięcznie”, „Wysokość”, „nóg” — poprawne |
+| Telefon | „14 694 10 00” w obu plikach, 60 px |
+| Cena | naklejka „wynajem łóżka · 150 zł · miesięcznie” („150 zł” 47 px; „wynajem łóżka” 17 px i „miesięcznie” 21 px — drobne opisy są najmniejszymi tekstami na grafice) |
+| Teksty | H1: „Jeden telefon. My zajmiemy się resztą.”, lista Dowozimy/Wnosimy/Montujemy/Szkolimy, „Zadzwoń i sprawdź dostępność”. H2: „3 regulacje elektryczne dla codziennej opieki”, lista Oparcie/Segment nóg/Wysokość łóżka, „Zapytaj o wynajem łóżka 3-funkcyjnego”. Obie: etykieta „Materac w zestawie” |
+| Czytelność w małym podglądzie | podgląd 400 × 209 px: nagłówek, cena, numer i lista czytelne. Nagłówek dobiera wielkość automatycznie (H1 58 px w 3 wierszach, H2 44 px w 4 wierszach), lista 26 px, CTA 25 px |
+| Marginesy i przycięcia | teksty i elementy ≥ 36–40 px od krawędzi; naklejka 44 px od prawej i 36 px od góry; brak uciętych liter i kolizji; róg naklejki nie zasłania tekstu (poprawione po pierwszym podglądzie) |
+| Logo | oryginalny plik Siloe, bez przerysowania, proporcje zachowane |
+| Napisy techniczne | brak |
+| Transfer | 4/4 PUT HTTP 200, potwierdzone, pobrania zgodne z pełnym SHA-256 |
+
+Poprawki w trakcie: (1) prawe koła dochodziły do krawędzi — zdjęcie przeskalowane, by łóżko miało margines; (2) nagłówek H1 łamał się „się / resztą.” — wprowadzono równomierne łamanie; (3) lista H2 prawie dotykała panelu CTA — dodano automatyczne dopasowanie wielkości nagłówka; (4) etykieta materaca nachodziła na naklejkę, a róg naklejki na „miesięcznie” — zmieniono położenie.

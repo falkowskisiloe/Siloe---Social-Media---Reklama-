@@ -12,6 +12,7 @@ python3 music.py 15 /tmp/siloe-15.wav
 python3 music.py 6 /tmp/siloe-6.wav
 ffmpeg -i /tmp/siloe-output/3f-meta-reel-15s-v2-silent.mp4 -i /tmp/siloe-15.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -t 15 -movflags +faststart /tmp/siloe-output/3f-meta-reel-15s-v2-music.mp4
 ffmpeg -i /tmp/siloe-output/3f-meta-reel-6s-v2-silent.mp4 -i /tmp/siloe-6.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -t 6 -movflags +faststart /tmp/siloe-output/3f-meta-reel-6s-v2-music.mp4
+python3 build_landscape.py /tmp/siloe-input /tmp/siloe-fonts /tmp/siloe-output v1   # Feed 1,91:1 (1200 × 628)
 ```
 
 Skrypt statyk eksportuje domyślnie tylko H1/H2. Definicji H3 nie wykonuje. Nie używa API generacji. Poppins: SIL OFL, zachować OFL.txt. Wersje Pillow/ffmpeg mogą zmieniać bajty wyjściowe; sumy w manifeście identyfikują dostarczone eksporty.

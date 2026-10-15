@@ -27,6 +27,17 @@ H3: `withheld`, poza pakietem. Cena: **150 zł miesięcznie**. Telefon: **14 694
 | `3f-meta-reel-6s-v2-silent.mp4` | 1080 × 1920; 6.000000 s; H.264; 30 fps; bez audio | H1/H2 wspólny | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/c40a7b79-b326-4e12-b938-c4d817aa8d89.mp4) | `c626217b4bd7bd53e90c790fd2de26953ac6470976725abfd923944dd12a3210` | 4479055 |
 | `3f-meta-reel-6s-v2-music.mp4` | 1080 × 1920; 6.000000 s; H.264; 30 fps; AAC | H1/H2 wspólny | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/f9e49fcc-e3dd-4a7e-add6-c6486a49a2d9.mp4) | `67596e2d591b094edfb600d9d85962b63c62616b2408e538a4df1599b50c075f` | 4628307 |
 
+## Feed poziomy 1,91:1 — dedykowany układ (dodano 2026-10-15)
+
+| Plik | Format | Hipoteza | Stan | Link | SHA-256 (pełne) | Bajty |
+|---|---|---|---|---|---|---|
+| `3f-meta-feed-1.91x1-h1-v1.png` | 1200 × 628 (1,91:1) | H1 | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/9c97a6d9-24fd-4c92-8937-73ebcb03df0e.png) | `809cbaefe4181a09a848e5b7b3ee3a6a8e1703778e53e982cb13879d25c79285` | 622965 |
+| `3f-meta-feed-1.91x1-h1-v1.jpg` | 1200 × 628 (1,91:1) | H1 | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/112dc48c-4431-4c9c-8373-c7a0b7ee1059.jpg) | `cd6c36b2943ad1786b09ddaa4cebab4e0b1ecbc3d119377dff6935c2fcdbb39a` | 190491 |
+| `3f-meta-feed-1.91x1-h2-v1.png` | 1200 × 628 (1,91:1) | H2 | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/930a103f-d63b-4597-b04d-b7cefcb9824a.png) | `a7c328bf55750379d704d3d8f64fbbdc59d7c3c97f42f8ec3f1ff26e99625aed` | 622864 |
+| `3f-meta-feed-1.91x1-h2-v1.jpg` | 1200 × 628 (1,91:1) | H2 | publication_ready | [pobierz](https://d2ol7oe51mr4n9.cloudfront.net/user_3HWylqcqa2lagu2K8wHWNUz6ROZ/3742cb87-3aea-45d4-94d3-a90a9e8495ea.jpg) | `4668b058ed9ad668004ffea31ee651fc28e05eb3159c0855422dcfb6dc6de0f5` | 182775 |
+
+Osobny układ poziomy, nie kadr z 4:5, 1:1 ani 9:16. Z lewej panel tekstowy w jednolitym kolorze ściany kampanii. Z prawej zaakceptowane zdjęcie S4, tylko przeskalowane (×0,3628) i przycięte, bez rozmycia, odbić i outpaintu. Łóżko z wysięgnikiem jest w całości: x 568–1172, y 50–559, z marginesem ≥ 28 px. Logo pochodzi z oryginalnego pliku właściciela (PNG 500 × 500, przycięty do znaku). `prepare_inputs.py` odtwarza logo z wycinka 141 × 79 px; do odtworzenia 1:1 użyj pliku właściciela jako `logo-siloe.png`. Skrypt: `creative/src/build_landscape.py`. Te pliki nie wchodzą do paczki ZIP v2 i są pobierane osobno z linków powyżej. Biblioteka mediów: 4/4 uploadów HTTP 200, pobrania zgodne z SHA-256.
+
 ## Napisy i komplet
 
 Dwa czyste SRT v2: creative/video/. Filmy mają napisy w obrazie; SRT nie zawierają komentarzy technicznych. MP4 i okładka są wspólne dla H1/H2 zgodnie z zaakceptowanym storyboardem. Paczka ZIP jest wskazana poniżej po uploadzie.

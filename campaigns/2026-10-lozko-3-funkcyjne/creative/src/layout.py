@@ -111,7 +111,7 @@ def shadowed(im, shape_fn, blur=10, offset=(0, 6), alpha=60):
     im.alpha_composite(sh, offset)
 
 
-def sticker(im, cx, cy, r0, top=None, big='150 zł', small='miesięcznie', rot=-10):
+def sticker(im, cx, cy, r0, top=None, big='150 zł', small='miesięcznie', rot=-10, text_scale=1.0, curl_deg=38):
     r = r0 * 2  # rysowanie w 2x, potem zmniejszenie (gładkie krawędzie)
     S = int(r * 3)
     c = S / 2
@@ -122,7 +122,7 @@ def sticker(im, cx, cy, r0, top=None, big='150 zł', small='miesięcznie', rot=-
     d = ImageDraw.Draw(lay)
     d.ellipse([c - r, c - r, c + r, c + r], fill=BLUE)
     # zawinięty róg: mały jasny trójkąt na krawędzi, poza strefą tekstu
-    a = math.radians(38)
+    a = math.radians(curl_deg)
     ex, ey = c + r * math.cos(a), c + r * math.sin(a)
     t = r * 0.30
     p1 = (ex - t * math.sin(a) * 1.0, ey - 0 + t * math.cos(a) * 0.0)
@@ -136,9 +136,9 @@ def sticker(im, cx, cy, r0, top=None, big='150 zł', small='miesięcznie', rot=-
     fb = F(700, big_s)
     while d.textlength(big, font=fb) > r * 1.45:
         big_s -= 1; fb = F(700, big_s)
-    fs = F(400, r * 0.19)
+    fs = F(400, r * 0.19 * text_scale)
     if top:
-        d.text((c, c - r * 0.36), top, font=F(500, r * 0.16), fill=WHITE, anchor='mm')
+        d.text((c, c - r * 0.37), top, font=F(500, r * 0.16 * text_scale), fill=WHITE, anchor='mm')
     d.text((c, c + r * 0.16), big, font=fb, fill=WHITE, anchor='ms')
     d.text((c - r * 0.04, c + r * 0.42), small, font=fs, fill=WHITE, anchor='ms')
     lay = lay.rotate(rot, resample=Image.BICUBIC, center=(c, c))
