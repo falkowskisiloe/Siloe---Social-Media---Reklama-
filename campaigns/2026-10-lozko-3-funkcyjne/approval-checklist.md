@@ -24,3 +24,17 @@
 Agent może przygotowywać projekty robocze z wartościami widocznymi na zaakceptowanej grafice, lecz nie może oznaczyć pakietu jako gotowego do emisji, dopóki wszystkie pola blokujące nie zostaną zatwierdzone.
 
 Po uzyskaniu odpowiedzi należy zaktualizować `config/brand-brief.yaml` i `config/offers.yaml`, a następnie ponownie uruchomić kontrolę QA.
+
+## Uzupełnienie po produkcji roboczej (2026-10-15)
+
+**Status pakietu:** `creative_ready` — materiały w `manifest.md`, raport w `qa/qa-report.md`. Emisja nadal zablokowana.
+
+| Element | Wartość robocza | Status | Odpowiedź właściciela |
+|---|---|---|---|
+| Wybór wersji do testu | H1 i H2 (H3 zablokowany) | do akceptacji | |
+| Prawa do zdjęcia produktu (`2.png` → S4) | brak dokumentu | potwierdzić prawa do użycia w reklamie płatnej | |
+| Wysięgnik z uchwytem na zdjęciu | widoczny | potwierdzić, czy jest w zestawie najmu, albo zdecydować o pozostawieniu | |
+| H3 „48 godzin” | szkic | odblokować dopiero po potwierdzeniu obszaru, dostępności i weekendów | |
+| Muzyka | podkład autorski Siloe (generowany skryptem) | zaakceptować albo wybrać utwór z Meta Sound Collection | |
+| Znaczniki „PROJEKT ROBOCZY” na plikach | widoczne | usunąć w wersji do emisji po zatwierdzeniu danych | |
+| Zgoda na emisję i budżet | brak | wymagana osobna, jawna decyzja | |
