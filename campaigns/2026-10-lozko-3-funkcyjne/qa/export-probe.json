@@ -1,0 +1,176 @@
+[
+  {
+    "filename": "3f-meta-feed-1x1-h1-v2.jpg",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "sha256": "cb27d34c0e3205d4d98a1fb4c11b3ace402787f18c48f45b6a18909c758e5568",
+    "bytes": 273662
+  },
+  {
+    "filename": "3f-meta-feed-1x1-h1-v2.png",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "sha256": "a5341cba5e8084521611682fb78be76c782d9507e1204b507dac6574d3157a1f",
+    "bytes": 1253091
+  },
+  {
+    "filename": "3f-meta-feed-1x1-h2-v2.jpg",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "sha256": "9bc098c2a1b71a2c7d96266435bda60ae15fa94e0c2cfeef78dc7e2e6f2683b7",
+    "bytes": 277478
+  },
+  {
+    "filename": "3f-meta-feed-1x1-h2-v2.png",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "sha256": "5ab284de3f3765863aa6674b8fbb8578b53d78f5290bb4ce2dc54b3eebc362d3",
+    "bytes": 1255128
+  },
+  {
+    "filename": "3f-meta-feed-4x5-h1-v2.jpg",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "sha256": "3f8db48eb4b278fc8c0227b71d7d169a6e666a1380a44880ad19ae376ddb8883",
+    "bytes": 356445
+  },
+  {
+    "filename": "3f-meta-feed-4x5-h1-v2.png",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "sha256": "595031333f2779b423269818cd2cf7740890a73dd763316b77d9dd5000027980",
+    "bytes": 1599113
+  },
+  {
+    "filename": "3f-meta-feed-4x5-h2-v2.jpg",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "sha256": "249a1a17b9429b9371ec9ac4e06eec546838536e2d85ee27d8a84abeecbc313e",
+    "bytes": 357740
+  },
+  {
+    "filename": "3f-meta-feed-4x5-h2-v2.png",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "sha256": "0f3d7eb668d8ae8c9d7c6bb849bee95aa1f5da49cfefd62ab53b67e5c27c99a5",
+    "bytes": 1597881
+  },
+  {
+    "filename": "3f-meta-reel-15s-v2-music.mp4",
+    "duration": "15.000000",
+    "video": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio": [
+      "aac"
+    ],
+    "sha256": "8d60f555b0752e950f51887bd0e330934a0ae0d24554c136e5694aa9b485d883",
+    "bytes": 8808598
+  },
+  {
+    "filename": "3f-meta-reel-15s-v2-silent.mp4",
+    "duration": "15.000000",
+    "video": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio": [],
+    "sha256": "7f7b819d4ebdc4d5ed7160ea2cc6c5d2a004dd7464ac2da9257de5b10fda417d",
+    "bytes": 8434932
+  },
+  {
+    "filename": "3f-meta-reel-6s-v2-music.mp4",
+    "duration": "6.000000",
+    "video": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio": [
+      "aac"
+    ],
+    "sha256": "67596e2d591b094edfb600d9d85962b63c62616b2408e538a4df1599b50c075f",
+    "bytes": 4628307
+  },
+  {
+    "filename": "3f-meta-reel-6s-v2-silent.mp4",
+    "duration": "6.000000",
+    "video": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio": [],
+    "sha256": "c626217b4bd7bd53e90c790fd2de26953ac6470976725abfd923944dd12a3210",
+    "bytes": 4479055
+  },
+  {
+    "filename": "3f-meta-reel-cover-v2.jpg",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "a141440d3b2208e1c83f93d220cd59db6eb51c29bda23236b9cdeb392677d1d5",
+    "bytes": 419856
+  },
+  {
+    "filename": "3f-meta-reel-cover-v2.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "46df248c9127d70bc8dc6a27cb493795953088d2182c0c45e6f94c5bc59f14cc",
+    "bytes": 2459537
+  },
+  {
+    "filename": "3f-meta-story-9x16-h1-v2.jpg",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "ba0404c8bf6297e6422a45f0fd50618ca979db911ca371496e2b0c6a6ff375d9",
+    "bytes": 478943
+  },
+  {
+    "filename": "3f-meta-story-9x16-h1-v2.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "466ce5123e4c2ab0549b223fa7bfe8039863e22efe454e70878408bcfd6ea999",
+    "bytes": 2423455
+  },
+  {
+    "filename": "3f-meta-story-9x16-h2-v2.jpg",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "6b646d9243ab9530f24a896888cb5b28aa4736041b983a209f4baae755c2cd76",
+    "bytes": 485716
+  },
+  {
+    "filename": "3f-meta-story-9x16-h2-v2.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "bc356e0bd2b7de7d10620414eea18277671a5042818d54e3fd960fbf46a71570",
+    "bytes": 2425236
+  }
+]

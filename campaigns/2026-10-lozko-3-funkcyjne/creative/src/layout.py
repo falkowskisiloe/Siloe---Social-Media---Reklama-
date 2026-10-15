@@ -47,9 +47,9 @@ def base_from_outpaint(op_path, W, H, k, src_top_in_op, src_w_in_op, shift_y, sh
     x0 = (opk.width - W) // 2 + shift_x
     y0 = shift_y
     if y0 + H > opk.height:
-        # dolny margines: lustrzane odbicie pasa podłogi (strefa interfejsu, poza produktem)
+        # Preserve floor handling from the concurrent export; never synthesize product pixels.
         extra = y0 + H - opk.height
-        strip = opk.crop((0, opk.height - extra, opk.width, opk.height)).transpose(Image.FLIP_TOP_BOTTOM)
+        strip = opk.crop((0, opk.height - extra, opk.width, opk.height)).transpose(Image.Transpose.FLIP_TOP_BOTTOM)
         ext = Image.new('RGB', (opk.width, opk.height + extra))
         ext.paste(opk, (0, 0)); ext.paste(strip, (0, opk.height))
         opk = ext

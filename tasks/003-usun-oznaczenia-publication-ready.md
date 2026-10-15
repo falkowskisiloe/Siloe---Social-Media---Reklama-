@@ -26,3 +26,7 @@ Wariant H3 z hasłem „48 godzin” pozostaje poza pakietem emisji do czasu pe�
 ## Ograniczenia
 
 Nie publikuj materiałów, nie wysyłaj wiadomości do klientów i nie uruchamiaj wydatków reklamowych.
+
+## Wykonanie 2026-10-15
+
+Czyste eksporty i końcowa kontrola wykonane. Linki, sumy i decyzje: [manifest](../campaigns/2026-10-lozko-3-funkcyjne/manifest.md) i [QA](../campaigns/2026-10-lozko-3-funkcyjne/qa/qa-report.md). Nie uruchomiono emisji ani wydatków.

@@ -1,6 +1,5 @@
 # H2 — trzy funkcje elektryczne
 
-**Status:** `publication_ready` (2026-10-15) · nic nie opublikowano · emisja wymaga osobnej, jawnej zgody właściciela
 **Hipoteza:** konkretne funkcje łóżka (oparcie, nogi, wysokość) przekonują osoby, które porównują sprzęt przed wynajmem.
 **Hak:** „Trzy regulacje, które pomagają dopasować łóżko do codziennej opieki.”
 **Dowód:** elektryczna regulacja oparcia, segmentu nóg i wysokości całego łóżka (`config/offers.yaml`).
@@ -18,14 +17,14 @@
 
 Bez obietnic zdrowotnych: nie piszemy, że łóżko „leczy”, „zapobiega odleżynom” ani „przyspiesza powrót do zdrowia”.
 
-## Tekst na grafikach (`3f-meta-feed-4x5-h2-v2`, `3f-meta-feed-1x1-h2-v2`, `3f-meta-story-9x16-h2-v2`)
+## Tekst na grafikach (`3f-meta-feed-4x5-h2-v2`, `-feed-1x1-`, `-story-9x16-`)
 
 - Nagłówek: „3 regulacje elektryczne” / „dla codziennej opieki”
 - Podtytuł: „Łóżko 3-funkcyjne na wynajem”
 - Lista: ✓ Oparcie ✓ Segment nóg ✓ Wysokość łóżka
 - Etykiety: „Materac w zestawie”, „Elektryczna regulacja”
 - Naklejka: „wynajem łóżka · 150 zł · miesięcznie”
-- Panel: „Zapytaj o wynajem łóżka 3-funkcyjnego” · 14 694 10 00; w 4:5 dodatkowo „Materac w zestawie”
+- Panel: „Zapytaj o wynajem łóżka 3-funkcyjnego” · 14 694 10 00 · „Materac w zestawie” (4:5)
 
 ## Tekst alternatywny
 

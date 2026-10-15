@@ -1,6 +1,6 @@
 """Motion graphic 9:16 z zaakceptowanego zdjęcia łóżka 3F: najazd kamery, zbliżenie na pilot,
-animowane etykiety, lista usług, cena i CTA. Bez napisów technicznych (status tylko w manifeście). Łóżko nie jest generowane ani animowane mechanicznie.
-Użycie: python3 build_video.py <work> <fonts> <out_dir> <15|6|cover> [wersja]"""
+animowane etykiety, lista usług, cena najmu i CTA. Łóżko nie jest generowane ani animowane mechanicznie.
+Użycie: python3 build_video.py <work> <fonts> <out_dir> <15|6> [cover]"""
 import sys, os, subprocess, math
 sys.path.insert(0, os.path.dirname(__file__))
 import layout as L
@@ -158,7 +158,7 @@ def run6():
 def render(T, cam, items, path):
     n = int(T * FPS)
     p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                          '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-movflags', '+faststart', path],
+                          '-c:v', 'libx264', '-preset', os.environ.get('SILOE_X264_PRESET', 'medium'), '-crf', '18', '-pix_fmt', 'yuv420p', '-threads', '2', '-profile:v', 'high', '-movflags', '+faststart', path],
                          stdin=subprocess.PIPE)
     for i in range(n):
         t = i / FPS
@@ -167,7 +167,9 @@ def render(T, cam, items, path):
             a = env(t, t0, t1, fi, fo)
             put(im, lay, a, dy=(1 - a) * 24 if a < 1 else 0)
         p.stdin.write(im.convert('RGB').tobytes())
-    p.stdin.close(); p.wait()
+    p.stdin.close()
+    if p.wait() != 0:
+        raise RuntimeError("ffmpeg export failed")
 
 
 if MODE == 'cover':
@@ -181,8 +183,8 @@ if MODE == 'cover':
         d.text((W / 2, 650), 'do domu', font=L.F(700, 92), fill=L.NAVY, anchor='ms')
         lg = L.CFG['logo']; lh = 96
         l = lg.resize((round(lg.width * lh / lg.height), lh), Image.LANCZOS)
-        d.rounded_rectangle([W / 2 - l.width / 2 - 40, 1480, W / 2 + l.width / 2 + 40, 1480 + lh + 50], radius=36, fill=(255, 255, 255, 240))
-        x.alpha_composite(l, (int(W / 2 - l.width / 2 + 6), 1505))
+        d.rounded_rectangle([W / 2 - l.width / 2 - 40, 1360, W / 2 + l.width / 2 + 40, 1360 + lh + 50], radius=36, fill=(255, 255, 255, 240))
+        x.alpha_composite(l, (int(W / 2 - l.width / 2 + 6), 1385))
     fn(lay); im.alpha_composite(lay)
     im = im.convert('RGB'); im.save(f'{OUT}/3f-meta-reel-cover-{VER}.png'); im.save(f'{OUT}/3f-meta-reel-cover-{VER}.jpg', quality=93)
     print('cover ok')

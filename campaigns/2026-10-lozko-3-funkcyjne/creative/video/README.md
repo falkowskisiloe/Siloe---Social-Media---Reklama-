@@ -1,3 +1,3 @@
-# Filmy 15 s i 6 s, wersje z muzyką i bez dźwięku; pliki napisów .srt są obok
+# Filmy wspólne H1/H2: 15 s i 6 s, muzyka i silent, czyste SRT v2
 
-Pliki mediów są w magazynie Higgsfield, nie w repozytorium (publiczne repozytorium, niepotwierdzone prawa do zdjęcia produktu — B17). Stałe adresy i sumy kontrolne: [`../../manifest.md`](../../manifest.md).
+Aktualne pliki v2 i linki: [manifest](../../manifest.md). Pliki są w bibliotece mediów Higgsfield.

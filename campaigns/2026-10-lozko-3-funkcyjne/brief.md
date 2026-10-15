@@ -1,7 +1,7 @@
 # Brief kampanii — łóżko rehabilitacyjne elektryczne 3-funkcyjne (Meta, 2026-10)
 
-**Status:** H1 i H2 `publication_ready` (zadanie 003, 2026-10-15); H3 `withheld`. Nic nie zostało opublikowane ani uruchomione, nie powstały też żadne wydatki reklamowe.
-**Zadanie:** `tasks/002-lozko-3-funkcyjne-meta-production.md`
+Aktualny wykaz eksportów i stan materiałów: [manifest.md](manifest.md). Emisji nie uruchomiono.
+**Zadania:** 002 (produkcja bazowa) i 003 (czyste eksporty z zaakceptowanego kierunku).
 **Data przygotowania:** 2026-10-15
 **Poza zakresem tej rundy:** TWIST i karuzela produktowa.
 
@@ -40,8 +40,8 @@ We wszystkich formatach łóżko pochodzi z pikseli S4 (kontrola w `qa/qa-report
 
 | ID | Hak | Dowód | CTA | Status |
 |---|---|---|---|---|
-| H1 | „Jeden telefon — my zajmiemy się resztą.” | dowozimy, wnosimy, montujemy, szkolimy; materac w zestawie | „Zadzwoń i sprawdź dostępność” | roboczy, do testu jako pierwszy |
-| H2 | „Trzy regulacje, które pomagają dopasować łóżko do codziennej opieki.” | elektryczna regulacja oparcia, segmentu nóg i wysokości | „Zapytaj o wynajem łóżka 3-funkcyjnego” | roboczy |
+| H1 | „Jeden telefon — my zajmiemy się resztą.” | dowozimy, wnosimy, montujemy, szkolimy; materac w zestawie | „Zadzwoń i sprawdź dostępność” | kierunek zaakceptowany przez właściciela |
+| H2 | „Trzy regulacje, które pomagają dopasować łóżko do codziennej opieki.” | elektryczna regulacja oparcia, segmentu nóg i wysokości | „Zapytaj o wynajem łóżka 3-funkcyjnego” | kierunek zaakceptowany przez właściciela |
 | H3 | „Łóżko gotowe w domu w 48 godzin.” | czas realizacji | „Zadzwoń i potwierdź termin” | **ZABLOKOWANY** — do czasu potwierdzenia 48 h, obszaru, dostępności i realizacji weekendowej |
 
 Teksty: `copy/meta-copy-h1.md`, `copy/meta-copy-h2.md`, `copy/meta-copy-h3.md`.
@@ -63,8 +63,8 @@ Teksty: `copy/meta-copy-h1.md`, `copy/meta-copy-h2.md`, `copy/meta-copy-h3.md`.
 | Dostawa, montaż, instruktaż, wsparcie | w zakresie usługi | `config/offers.yaml` | 2026-10-15 | potwierdzony zakres; **czy w cenie — DO POTWIERDZENIA** |
 | Wniesienie | widoczne na zaakceptowanej grafice | potwierdzenie właściciela (facts F11, 2026-10-14); brak w `offers.yaml` | 2026-10-15 | DO POTWIERDZENIA w konfiguracji |
 | Cena | 150 zł | `offers.yaml` (`displayed_amount_pln: 150`) | 2026-10-15 | kwota potwierdzona |
-| Okres ceny | „miesięcznie” | potwierdzenie właściciela F09 (2026-10-14); w `offers.yaml`: „DO POTWIERDZENIA” | 2026-10-15 | **DO POTWIERDZENIA** (lista zatwierdzeń) |
-| Numer reklamowy | 14 694 10 00 albo 792 020 020 | grafika i F01 kontra `config/brand-brief.yaml` | 2026-10-15 | **DO WYBORU** przez właściciela |
+| Okres ceny | „miesięcznie” | potwierdzenie właściciela F09 (2026-10-14); w `offers.yaml`: „DO POTWIERDZENIA” | 2026-10-15 | potwierdzone przez właściciela w rozmowie 2026-10-14 i ponownie w Zadaniu 003 |
+| Numer reklamowy | 14 694 10 00 (numer tej kampanii) | grafika i F01 kontra `config/brand-brief.yaml` | 2026-10-15 | potwierdzony przez właściciela; globalny numer firmy bez zmian |
 | Realizacja w 48 h | robocze | tekst właściciela 2026-10-15 | 2026-10-15 | **DO POTWIERDZENIA** (blokuje H3) |
 | Odbieramy 7 dni w tygodniu | robocze | tekst właściciela 2026-10-15 | 2026-10-15 | **DO POTWIERDZENIA** (godziny) |
 | Obszar dostawy | Śląsk i Kraków (kampania) | F10, F13 | 2026-10-15 | **lista miast i koszt DO POTWIERDZENIA** |
@@ -73,7 +73,7 @@ Teksty: `copy/meta-copy-h1.md`, `copy/meta-copy-h2.md`, `copy/meta-copy-h3.md`.
 
 ## Decyzja właściciela
 
-- Akceptacja kreacji: ____ (data, wersje)
-- Wybór numeru telefonu: ____
-- Okres ceny i zakres usług w cenie: ____
+- Akceptacja kierunku H1/H2: właściciel, polecenie Zadania 003, 2026-10-15.
+- Numer kampanii: 14 694 10 00 — potwierdzony przez właściciela.
+- Cena najmu: 150 zł miesięcznie — potwierdzona. Usługi dodatkowe nie są określone jako bezpłatne.
 - Zgoda na emisję i budżet: ____ (wymagana osobna, jawna decyzja)

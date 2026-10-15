@@ -1,5 +1,5 @@
-"""Buduje czyste statyczne kreacje 4:5, 1:1, 9:16 (bez napisów technicznych — status tylko w manifeście).
-Użycie: python3 build_static.py <katalog_roboczy> <katalog_fontów> <katalog_wyjściowy> [wersja]
+"""Buduje statyczne kreacje 4:5, 1:1, 9:16 dla H1/H2/H3.
+Użycie: python3 build_static.py <katalog_roboczy> <katalog_fontów> <katalog_wyjściowy>
 Katalog roboczy: s4.png (zaakceptowane zdjęcie), op11.png, op916.png (outpaint), logo-siloe.png."""
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -13,25 +13,21 @@ COPY = {
     'h1': dict(head=[('Jeden telefon.', L.NAVY), ('My zajmiemy się resztą.', L.BLUE)],
                sub='Od telefonu do gotowego łóżka',
                tags=['Dowozimy', 'Wnosimy', 'Montujemy', 'Szkolimy'],
-               panel=('Zadzwoń i sprawdź dostępność', '14 694 10 00', 'Wynajem łóżka rehabilitacyjnego'),
-               suffix=''),
+               panel=('Zadzwoń i sprawdź dostępność', '14 694 10 00', 'Wynajem łóżka rehabilitacyjnego'),),
     'h2': dict(head=[('3 regulacje elektryczne', L.NAVY), ('dla codziennej opieki', L.BLUE)],
                sub='Łóżko 3-funkcyjne na wynajem',
                tags=['Oparcie', 'Segment nóg', 'Wysokość łóżka'],
-               panel=('Zapytaj o wynajem łóżka 3-funkcyjnego', '14 694 10 00', 'Materac w zestawie'),
-               suffix=''),
-    # H3: wstrzymany (withheld) — poza pakietem emisji; status tylko w nazwie pliku i manifeście
+               panel=('Zapytaj o wynajem łóżka 3-funkcyjnego', '14 694 10 00', 'Materac w zestawie'),),
     'h3': dict(head=[('Jeden telefon.', L.NAVY), ('Łóżko gotowe w 48 godzin', L.BLUE)],
                sub='Od telefonu do Twoich drzwi',
                tags=['Dowozimy', 'Wnosimy', 'Montujemy', 'Szkolimy'],
-               panel=('Zadzwoń i potwierdź termin', '14 694 10 00', 'Odbieramy 7 dni w tygodniu'),
-               suffix='-withheld'),
+               panel=('Zadzwoń i potwierdź termin', '14 694 10 00', 'Odbieramy 7 dni w tygodniu'),),
 }
 
 
-def labels(im, m, mat_box, el_box, size, el_side='right'):
+def labels(im, m, mat_box, el_box, size):
     L.callout(im, ['Materac', 'w zestawie'], mat_box, size, m(L.P['mattress']), side='left')
-    L.callout(im, ['Elektryczna', 'regulacja'], el_box, size, m(L.P['remote']), side=el_side)
+    L.callout(im, ['Elektryczna', 'regulacja'], el_box, size, m(L.P['remote']), side='right')
 
 
 def feed45(c):
@@ -47,32 +43,32 @@ def feed45(c):
 
 def feed11(c):
     im, m, sc = L.base_from_outpaint(f'{WORK}/op11.png', 1080, 1080, 1080 / 2048, 0, 1648, 0)
-    L.headline(im, c['head'], 40, 58, sub=c['sub'], sub_size=29, gap=1.12, max_w=900)
-    L.sticker(im, 952, 330, 92, top='wynajem łóżka')
-    L.tags(im, c['tags'], 26, 262, 56, 9, 31)
-    labels(im, m, (700, 430), (470, 760), 29, el_side='left')
-    L.bottom_panel(im, (0, 944, 610, 1080), 56, c['panel'][0], c['panel'][1], None, sizes=(26, 74, 22), pad=40)
-    L.logo_box(im, (820, 944, 1080, 1080), 60, 64)
+    L.headline(im, c['head'], 52, 56, sub=c['sub'], sub_size=27, gap=1.12, max_w=880)
+    L.sticker(im, 958, 352, 86, top='wynajem łóżka')
+    L.tags(im, c['tags'], 30, 285, 50, 8, 30)
+    labels(im, m, (700, 525), (150, 795), 30)
+    L.bottom_panel(im, (0, 948, 600, 1080), 56, c['panel'][0], c['panel'][1], None, sizes=(22, 68, 20), pad=40)
+    L.logo_box(im, (820, 948, 1080, 1080), 60, 62)
     return im
 
 
 def story916(c):
-    # zdjęcie wyżej (S4 od y=150), aby panel z numerem miał zapas od dolnego interfejsu Stories/Reels
-    im, m, sc = L.base_from_outpaint(f'{WORK}/op916.png', 1080, 1920, 0.705, 425, 1536, 150)
-    L.headline(im, c['head'], 266, 68, sub=c['sub'], sub_size=33, gap=1.12, max_w=960)
-    L.sticker(im, 920, 610, 108, top='wynajem łóżka')
-    L.tags(im, c['tags'], 50, 548, 56, 12, 31)
-    labels(im, m, (760, 800), (96, 1110), 29)
-    L.bottom_panel(im, (0, 1318, 660, 1468), 64, c['panel'][0], c['panel'][1], None, sizes=(28, 84, 26))
-    L.logo_box(im, (850, 1318, 1080, 1468), 72, 74)
+    im, m, sc = L.base_from_outpaint(f'{WORK}/op916.png', 1080, 1920, 0.74, 425, 1536, 94)
+    L.headline(im, c['head'], 275, 80, sub=c['sub'], sub_size=37, gap=1.12, max_w=960)
+    L.sticker(im, 915, 650, 112, top='wynajem łóżka')
+    L.tags(im, c['tags'], 55, 625, 56, 12, 31)
+    labels(im, m, (760, 860), (110, 1130), 29)
+    L.bottom_panel(im, (0, 1272, 650, 1440), 70, c['panel'][0], c['panel'][1], None, sizes=(28, 88, 26))
+    L.logo_box(im, (850, 1272, 1080, 1440), 80, 78)
     return im
 
 
 os.makedirs(OUT, exist_ok=True)
-for h, c in COPY.items():
+for h in ('h1', 'h2'):
+    c = COPY[h]
     for name, fn in (('feed-4x5', feed45), ('feed-1x1', feed11), ('story-9x16', story916)):
         im = fn(c).convert('RGB')
-        base = f'{OUT}/3f-meta-{name}-{h}-{VER}{c["suffix"]}'
+        base = f'{OUT}/3f-meta-{name}-{h}-{VER}'
         im.save(base + '.png', optimize=True)
         im.save(base + '.jpg', quality=93)
-        print(os.path.basename(base), im.size)
+        print(base, im.size)

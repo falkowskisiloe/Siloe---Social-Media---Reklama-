@@ -66,3 +66,12 @@ Wyceny bez wydatku: wideo `kling3_0`, 5 s, 9:16, z obrazu = **10 kredytów**. Pr
 | Próby | 1 eksport statyk, 1 eksport filmów 15 s / 6 s i okładki. Kontrola: 9 statyk + okładka + 11 klatek filmów — bez poprawek |
 | Biblioteka mediów | 21 nowych plików (`media_upload` → PUT → `media_confirm`), 21/21 PUT HTTP 200, SHA-256 zgodne po pobraniu |
 | Wycofane | wszystkie pliki v1 (`superseded` w `manifest.md`) |
+
+
+## Uzgodnienie równoległego eksportu
+
+Zachowano przebieg z commitu 309279486ea74a75b588a3c3b8983f80433abe28. Jego manifest i QA są w qa/manifest-parallel-v2-history.md oraz qa/qa-parallel-v2-history.md. Aktualny manifest wskazuje końcowy zweryfikowany komplet według pełnych SHA-256 i media_id; nazwa v2 sama nie identyfikuje eksportu.
+
+## Zadanie 003 — 2026-10-15
+
+Czysty eksport istniejącymi skryptami: 12 statyk, 2 okładki i 4 MP4, dodatkowo 2 SRT. Usunięto komentarze techniczne, podniesiono kontakt w Stories, powiększono listy i etykiety w kwadracie. Brak generacji, koszt tej rundy 0 kredytów. Aktualne linki i QA: manifest.md oraz qa/qa-report.md. Poprzedni wykaz: qa/manifest-v1-history.md.

@@ -15,8 +15,8 @@
 Dostawa • wniesienie • montaż • instruktaż
 
 5
-00:00:11,150 --> 00:00:13,100
-Materac w zestawie · wynajem łóżka 150 zł miesięcznie
+00:00:11,150 --> 00:00:13,000
+Materac w zestawie · 150 zł miesięcznie
 
 6
 00:00:13,000 --> 00:00:15,000
